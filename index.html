@@ -72,11 +72,6 @@ function getTileNumber(x,y) {
   return -1
 }
 
-map.on('mousemove', function(e) {
-  let t = getTileNumber(e.latlng.lng, e.latlng.lat);
-  document.getElementById('map').title = t>=0 ? 'game ' + t : '';
-});
-
 map.on('click', function(e) {
   let t = getTileNumber(e.latlng.lng, e.latlng.lat);
   if (t>=0) {
