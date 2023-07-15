@@ -31,7 +31,7 @@ let factor = tileSize / w;
 let bounds = [[0,0], [w, h]];
 
 L.CRS.myCRS = L.extend({}, L.CRS.Simple, {
-  transformation: new L.Transformation(factor, 0, factor, 0)
+  transformation: new L.Transformation(factor, 0, factor, 0),
 });
 
 let map = L.map('map', {
@@ -44,6 +44,7 @@ L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
   maxNativeZoom: 6,
   tileSize: tileSize,
   bounds: bounds,
+  attribution: '<a href="https://github.com/joric/viva-games" target="_blank">Joric\'s Viva Games</a>',
 }).addTo(map);
 
 var x, y;
