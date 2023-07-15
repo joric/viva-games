@@ -2,7 +2,7 @@
 
 ~20 thousand ZX games in a single picture
 
-* Live demo: https://github.com/joric/viva-games
+* Live demo: https://joric.github.io/viva-games
 
 ## Versions
 
