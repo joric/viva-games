@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>VivaGames - Leaflet</title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    html, body, #map {
+        height: 100%;
+        width: 100%;
+        background: black;
+        image-rendering: pixelated;
+    }
+  </style>
+
+  
+</head>
+<body>
+
+
+
+<div id="map"></div>
+<script>
+
+  const map = L.map('map').setView([0,0], 3);
+
+  const tiles = L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
+    noWrap: true,
+    // maxZoom: 6, // no max zoom
+    minZoom: 3,
+    maxNativeZoom: 6,
+    nativeZooms: [0, 1, 2, 3, 4, 5, 6],
+  }).addTo(map);
+
+</script>
+
+
+
+</body>
+</html>
+
