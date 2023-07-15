@@ -80,7 +80,8 @@ map.on('mousemove', function(e) {
 map.on('click', function(e) {
   let t = getTileNumber(e.latlng.lng, e.latlng.lat);
   if (t>=0) {
-    alert('you clicked game ' + t);
+    var popup = L.popup();
+    popup.setLatLng(e.latlng).setContent('<a href="#">Play Game '+t+'</a>').openOn(map);
   }
 });
 
