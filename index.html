@@ -73,13 +73,13 @@ function getTileNumber(x,y) {
 
 map.on('mousemove', function(e) {
   let t = getTileNumber(e.latlng.lng, e.latlng.lat);
-  document.getElementById('map').title = t>=0 ? 'tile ' + t : '';
+  document.getElementById('map').title = t>=0 ? 'game ' + t : '';
 });
 
 map.on('click', function(e) {
   let t = getTileNumber(e.latlng.lng, e.latlng.lat);
   if (t>=0) {
-    alert('you clicked tile ' + t);
+    alert('you clicked game ' + t);
   }
 });
 
