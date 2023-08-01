@@ -7,7 +7,9 @@ import math,random,json
 
 target_image = Image.open('all-games.png')
 
-images = [*glob.glob("images/*")]
+basedir = 'images'
+
+images = [*glob.glob(basedir + '/*')]
 images.sort()
 
 tw = 256
@@ -246,7 +248,7 @@ for i in range(n):
         continue
 
     name = tiles_data[source_index]['name']
-    fname = 'tiles/'+name
+    fname = basedir + '/'+name
 
     im = Image.open(fname)
 
