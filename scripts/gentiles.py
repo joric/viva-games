@@ -125,7 +125,7 @@ def generate(image, outpath, zoom_level, resize_width, format='png'):
     # get details for ImageMagick
     LOG.info('Splitting to...')
     tile_width = int(math.ceil(width / num_tiles))
-    LOG.info('' + str(tile_width) + ' x ' + str(tile_width) + ' px tiles')
+    LOG.info('' + str(tile_width) + ' x ' + str(tile_width) + ' px areas, resized to ' + str(resize_width) + ' x ' + str(resize_width) +' px tiles' )
     pad = len(str(num_tiles * num_tiles))
 
     # create output directory
@@ -147,8 +147,8 @@ def generate(image, outpath, zoom_level, resize_width, format='png'):
             tile = image.crop([left, top, right, bottom])
             tile = tile.resize([resize_width, resize_width])
             tile_path = outpath.joinpath(f'{x}/{y}.'+format)
-            #tile.save(tile_path, quality=95)
-            tile.save(tile_path)
+            tile.save(tile_path, optimize=True, quality=20)
+            #tile.save(tile_path)
             print('.', end='')
             sys.stdout.flush()
     print('')

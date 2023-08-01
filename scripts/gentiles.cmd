@@ -1,0 +1,3 @@
+python gentiles.py -t jpg -w 512 ../../data/output.png 1-5 ../tiles
+python gentiles.py -t png -w 512 ../../data/output.png 6 ../tiles
+copy names.js ..\tiles\names.js
