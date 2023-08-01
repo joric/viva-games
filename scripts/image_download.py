@@ -9,6 +9,8 @@ data = []
 
 names = set()
 
+basedir = 'gifs'
+
 lines = 0
 for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
     try:
@@ -18,17 +20,17 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
         exit(0)
     lines += 1
     if '.gif-200x150.png' in url:
-        fname = 'images/'+ id + '.gif'
+        fname = basedir + '/'+ id + '.gif'
         url = url.replace('gif-200x150.png','gif')
         data.append((id, fname, url, title))
         names.add(id+'.gif')
     elif '-200x150.png' in url: # must be rescaled png
-        fname = 'images/'+ id + '.gif'
+        fname = basedir + '/' + id + '.gif'
         url = url.replace('-200x150.png','.png')
         data.append((id, fname, url, title))
         names.add(id+'.gif')
     elif 'game-no-image' not in url:
-        fname = 'images/'+ id + '.gif'
+        fname = basedir + '/' + id + '.gif'
         url = url.replace('-200x150','')
         data.append((id, fname, url, title))
         names.add(id+'.gif')
@@ -38,7 +40,7 @@ data.sort()
 
 print('lines read %d, usable names %d' % (lines, len(names)))
 
-existing = set([e.name for e in os.scandir('images')])
+existing = set([e.name for e in os.scandir(basedir)])
 
 total = len( names )
 count = len( existing )

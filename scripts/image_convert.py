@@ -2,13 +2,12 @@ from PIL import Image
 import glob
 import os, sys
 
-#images = [*glob.glob("images/dizzy-warehouse.gif")]
-images = [*glob.glob("images/*.gif")]
+images = [*glob.glob("gifs/*.gif")]
 
 size = (256,192)
 
 for i,fname in enumerate(images):
-    fout = os.path.join('tiles',os.path.basename(fname)).replace('.gif', '.png')
+    fout = os.path.join('images',os.path.basename(fname)).replace('.gif', '.png')
     im = Image.open(fname)
     im = im.convert('RGB')
     if im.size != size:
