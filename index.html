@@ -96,7 +96,8 @@ var miniMap = new L.Control.MiniMap(osm2, {
   toggleDisplay: true,
   width:256,
   height:200,
-  zoomLevelOffset: -7,
+  //zoomLevelOffset: -7,
+  zoomLevelFixed: -2,
   centerFixed: [h/2,w/2],
 }).addTo(map);
 
