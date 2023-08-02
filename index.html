@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.5/dist/leaflet-search.src.min.css">
   <script src="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.5/dist/leaflet-search.src.min.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
+
   <script src="tiles/names.js"></script>
 
   <style>
@@ -75,6 +77,7 @@ L.tileLayer.myCustomLayer('', {
   tileSize: tileSize,
   bounds: mapBounds,
   attribution: '<a href="https://github.com/joric/viva-games" target="_blank">Joric\'s Viva Games</a>',
+  edgeBufferTiles: 2,
 }).addTo(map);
 
 //map.setMaxBounds(mapBounds);
