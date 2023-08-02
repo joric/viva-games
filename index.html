@@ -99,7 +99,8 @@ var miniMap = new L.Control.MiniMap(osm2, {
   //zoomLevelOffset: -7,
   zoomLevelFixed: -2,
   centerFixed: [h/2,w/2],
-  aimingRectOptions: {color: "#000000", weight: 2, clickable: true},
+  aimingRectOptions: {color: "#ffffff", weight: 2, clickable: true, opacity: 1, fillOpacity: 0},
+  shadowRectOptions: {color: "#000000", weight: 2, clickable: true, opacity: 0, fillOpacity: 0},
 }).addTo(map);
 
 //map.setMaxBounds(mapBounds);
