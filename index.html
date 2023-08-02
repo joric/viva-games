@@ -33,11 +33,30 @@
         width: 100%;
         background: black;
         image-rendering: pixelated;
+        overflow: hidden;
+    }
+    #overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 256;
+      height: 192;
+      //background-color: #fff;
+      opacity: 0.5;
+      outline: 2px solid white;
+      color: grey;
+      font-size: 12px;
+      pointer-events: none;
+      padding: 0;
+      margin: 0;
+      text-indent: 3px;
+      z-index: 1000;
     }
   </style>
 </head>
 <body>
 <div id="map"></div>
+<div id="overlay"></div>
 <script>
 
 let w = h = 32768;
@@ -158,14 +177,56 @@ function getTile(x,y) {
   return [-1,[]];
 }
 
-map.on('mousemove', function(e) {
-  [t,bounds] = getTile(e.latlng.lng, e.latlng.lat);
+var mousePos = {x:0, y:0};
+window.addEventListener('mousemove', (event) => {
+  mousePos = { x: event.clientX, y: event.clientY };
+});
+
+function updateOverlay() {
+
+  let point = L.point(mousePos.x, mousePos.y);
+  let latlng = map.containerPointToLatLng(point);
+
+  [t,bounds] = getTile(latlng.lng, latlng.lat);
   document.getElementById('map').title = t>=0 ? names[t] : '';
+  c = document.getElementById('overlay');
+
+  if (t<0) {
+    c.style.visibility = 'hidden';
+    return;
+  }
+
+  var a = map.latLngToContainerPoint( L.latLng(bounds[0][0], bounds[0][1]) );
+  var b = map.latLngToContainerPoint( L.latLng(bounds[1][0], bounds[1][1]) );
+
+  c.style.left = a.x + 'px';
+  c.style.top = a.y + 'px';
+  c.style.width = (b.x-a.x) + 'px';
+  c.style.height = (b.y-a.y) + 'px';
+  c.style.visibility = 'visible';
+
+}
+
+map.on('mousemove', function(e) {
+  updateOverlay();
 });
 
 map.on('dragstart', function(e) {
   history.replaceState(null, null, ' ');
 });
+
+map.on('zoomstart', function(e) {
+  document.getElementById('overlay').style.visibility = 'hidden';
+});
+
+map.on('zoomend', function(e) {
+  updateOverlay();
+});
+
+map.on('drag', function(e) {
+  updateOverlay();
+});
+
 
 map.on('click', function(e) {
   let [t,bounds] = getTile(e.latlng.lng, e.latlng.lat);
