@@ -187,10 +187,9 @@ map.on('click', function(e) {
     // zoom to tile
     map.flyToBounds(bounds, {duration: 0.3});
     current_tile = t;
+    let popup = L.popup();
+    popup.setLatLng(e.latlng).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
   }
-
-  let popup = L.popup();
-  popup.setLatLng(e.latlng).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
 });
 
 </script>
