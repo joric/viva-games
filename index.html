@@ -18,6 +18,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css" integrity="sha512-qm+jY0iQ4Xf5RL79UB75REDLYD0jtvxxVZp2RVIW8sm8RNiHdeN43oksqUPrBIshJtQcVPrAL08ML2Db8fFZiA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js" integrity="sha512-WL3nAJlWFKoDShduxQRyY3wkBnQsINXdIfWIW48ZaPgYz1wYNnxIwFMMgigzSgjNBC2WWZ8Y8/sSyUU6abuF0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script src="tiles/names.js"></script>
 
   <style>
@@ -25,7 +28,7 @@
         padding: 0;
         margin: 0;
     }
-    html, body, #map {
+    html, body, #map, .leaflet-control-minimap {
         height: 100%;
         width: 100%;
         background: black;
@@ -71,13 +74,30 @@ L.tileLayer.myCustomLayer = function(templateUrl, options) {
 
 L.tileLayer.myCustomLayer('', {
   minZoom: 0,
-  // maxZoom: 6,
   minNativeZoom: minNativeZoom,
   maxNativeZoom: maxNativeZoom,
   tileSize: tileSize,
   bounds: mapBounds,
   attribution: '<a href="https://github.com/joric/viva-games" target="_blank">Joric\'s Viva Games</a>',
   edgeBufferTiles: 2,
+}).addTo(map);
+
+
+var osm2 = L.tileLayer.myCustomLayer('', {
+  minZoom: -1,
+  minNativeZoom: minNativeZoom,
+  maxNativeZoom: maxNativeZoom,
+  tileSize: tileSize,
+  bounds: mapBounds,
+});
+
+var miniMap = new L.Control.MiniMap(osm2, {
+  maxZoom: 0,
+  toggleDisplay: true,
+  width:256,
+  height:200,
+  zoomLevelOffset: -7,
+  centerFixed: [h/2,w/2],
 }).addTo(map);
 
 //map.setMaxBounds(mapBounds);
