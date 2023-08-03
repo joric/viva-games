@@ -21,6 +21,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.js"></script>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@2.4.0/Control.FullScreen.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@2.4.0/Control.FullScreen.min.js"></script>
+
   <script src="tiles/names.js"></script>
 
   <style>
@@ -78,6 +81,10 @@ L.CRS.myCRS = L.extend({}, L.CRS.Simple, {
 
 let map = L.map('map', {
   crs: L.CRS.myCRS,
+  fullscreenControl: true,
+  fullscreenControlOptions: {
+      position: 'topleft'
+  },
 }).setView([w/2,h/2],0);
 
 L.TileLayer.MyCustomLayer = L.TileLayer.extend({
