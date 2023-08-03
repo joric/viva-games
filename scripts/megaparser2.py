@@ -17,25 +17,34 @@ def download(folder, url, encoding):
     sys.stderr.write("Parsing file %d of %d (%s)...\r" % (current, total, 'cached' if cached else url))
     return buf.decode(encoding)
 
+def replace(url, keys):
+    for key,value in keys.items():
+        if (substr:='{'+key+'}') in url:
+            url = url.replace(substr, value)
+    return url
+
 def parse(config, folder, section, keys={}, content=''):
     opt, dd = config[section], defaultdict(dict)
     url, encoding = opt.get('url'),opt.get('encoding', 'utf-8')
 
     if alias:=opt.get('alias'):
         dd = defaultdict(dict)
+        extra = []
         for key, regexp in config[folder +'.' + alias].items():
+            c = 0
             for i,m in enumerate(re.finditer(regexp, content, re.MULTILINE | re.DOTALL)):
                 if m.groups():
                     value = m.group(1)
                     dd[i][key] = value
+                    c += 1
+            if c == 0:
+                extra.append(replace(regexp,keys))
+
         for i,d in dd.items():
-            fp.write('\t'.join([*d.values()]))
+            fp.write('\t'.join([*d.values()] + extra))
             fp.write('\n')
 
-    for key,value in keys.items():
-        if (substr:='{'+key+'}') in url:
-            url = url.replace(substr, value)
-
+    url = replace(url, keys)
     if url in visited:
         return
     visited.add(url)
