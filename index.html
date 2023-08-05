@@ -10,13 +10,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.1/dist/leaflet.min.css">
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.1/dist/leaflet.min.js"></script>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-mouse-position@1.2.0/src/L.Control.MousePosition.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/leaflet-mouse-position@1.0.0/src/L.Control.MousePosition.min.js"></script>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.5/dist/leaflet-search.src.min.css">
   <script src="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.5/dist/leaflet-search.src.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.js"></script>
@@ -38,24 +33,6 @@
         image-rendering: pixelated;
         overflow: hidden;
     }
-    #overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 256;
-      height: 192;
-      //background-color: #fff;
-      opacity: 0.5;
-      outline: 2px solid white;
-      color: grey;
-      font-size: 12px;
-      pointer-events: none;
-      padding: 0;
-      margin: 0;
-      text-indent: 3px;
-      z-index: 1000;
-      visibility: hidden;
-    }
   </style>
 </head>
 <body>
@@ -63,18 +40,21 @@
 <div id="overlay"></div>
 <script>
 
-let w = h = 32768;
-let tileSize = 512;
-let factor = tileSize / w;
-let mapBounds = [[0,0], [h, w]];
-let tw = 256;
-let th = 192;
-let cw = 128;
-let ch = 132;
+let mapWidth = mapHeight = 32768;
+let tileWidth = 256;
+let tileHeight = 192;
+let gridWidth = 128;
+let gridHeight = 132;
+
 let minNativeZoom = 1;
 let maxNativeZoom = 6;
-let pw = 32768;
-let ph = 25344;
+
+let imageWidth = tileWidth*gridWidth;
+let imageHeight = tileHeight*gridHeight;
+
+let tileSize = 512;
+let factor = tileSize / mapWidth;
+let mapBounds = [[0,0], [mapHeight, mapWidth]];
 
 L.CRS.myCRS = L.extend({}, L.CRS.Simple, {
   transformation: new L.Transformation(factor, 0, factor, 0),
@@ -86,7 +66,7 @@ let map = L.map('map', {
   fullscreenControlOptions: {
       position: 'topleft'
   },
-}).setView([w/2,h/2],0);
+}).setView([mapWidth/2,mapHeight/2],0);
 
 L.TileLayer.MyCustomLayer = L.TileLayer.extend({
     getTileUrl: function(coords) {
@@ -109,10 +89,8 @@ L.tileLayer.myCustomLayer('', {
   edgeBufferTiles: 2,
 }).addTo(map);
 
-//map.setMaxBounds(mapBounds);  // elastic-y bounds
-map.setMaxBounds([[-h/2,-w/2], [h+h/2, w+w/2]]); // add borders so corners could be in the center
-
-//L.control.mousePosition({lngFirst: true}).addTo(map);
+let b = mapWidth/2; // add border to elastic-y bounds
+map.setMaxBounds([[-b,-b], [mapHeight+b, mapWidth+b]]);
 
 // mini map
 var osm2 = L.tileLayer.myCustomLayer('', {
@@ -127,9 +105,8 @@ var miniMap = new L.Control.MiniMap(osm2, {
   toggleDisplay: true,
   width:128,
   height:100,
-  //zoomLevelOffset: -7,
   zoomLevelFixed: -6,
-  centerFixed: [h/2,w/2],
+  centerFixed: [mapHeight/2,mapWidth/2],
   aimingRectOptions: {color: "#ffffff", weight: 2, clickable: true, opacity: 1, fillOpacity: 0},
   shadowRectOptions: {color: "#000000", weight: 2, clickable: true, opacity: 0, fillOpacity: 0},
   position:'bottomleft',
@@ -138,10 +115,10 @@ var miniMap = new L.Control.MiniMap(osm2, {
 var n = names.length;
 var data = new Array(n);
 for (var i=0; i<n; i++) {
-    let left = (w - pw)/2;
-    let top = (h - ph)/2;
-    let x = tw/2 + left + tw * (i % cw);
-    let y = th/2 + top + th * Math.floor(i / cw);
+    let left = (mapWidth - imageWidth)/2;
+    let top = (mapHeight - imageHeight)/2;
+    let x = tileWidth/2 + left + tileWidth * (i % gridWidth);
+    let y = tileHeight/2 + top + tileHeight * Math.floor(i / gridWidth);
     let title = names[i];
     data[i] = {"loc":[y,x], "title":title};
 }
@@ -161,16 +138,11 @@ map.addControl(new L.Control.Search({
   position: 'topright',
 }));
 
-map.on('mousemove', function(e) {
-  //let t = getTileNumber(e.latlng.lng, e.latlng.lat);
-  //document.getElementById('map').title = t>=0 ? 'game ' + t : '';
-});
-
 function getBoundingBox() {
-  let left = (w - pw)/2;
-  let top = (h - ph)/2;
-  let right = left + pw;
-  let bottom = top + ph;
+  let left = (mapWidth - imageWidth)/2;
+  let top = (mapHeight - imageHeight)/2;
+  let right = left + imageWidth;
+  let bottom = top + imageHeight;
   return [[top,left],[bottom,right]];
 }
 
@@ -180,70 +152,21 @@ function getTileNumber(latlng) {
   if (x>=left && x<right && y>=top && y<bottom) {
     x -= left;
     y -= top;
-    let tx = Math.floor(x / tw);
-    let ty = Math.floor(y / th);
-    return tx + Math.floor(pw / tw) * ty;
+    let tx = Math.floor(x / tileWidth);
+    let ty = Math.floor(y / tileHeight);
+    return tx + Math.floor(imageWidth / tileWidth) * ty;
   }
   return -1;
 }
 
 function getTileBounds(tileNumber) {
   let [[top,left],[bottom,right]] = getBoundingBox();
-  let tx = tileNumber % cw;
-  let ty = Math.floor(tileNumber / cw);
-  let rx = left + tx * tw;
-  let ry = top + ty * th;
-  return [[ry, rx], [ry+th, rx+tw]];
+  let tx = tileNumber % gridWidth;
+  let ty = Math.floor(tileNumber / gridWidth);
+  let rx = left + tx * tileWidth;
+  let ry = top + ty * tileHeight;
+  return [[ry, rx], [ry+tileHeight, rx+tileWidth]];
 }
-
-var mousePos = {x:0, y:0};
-window.addEventListener('mousemove', (event) => {
-  mousePos = { x: event.clientX, y: event.clientY };
-});
-
-function updateOverlay() {
-  return; // unused for now
-
-  t = getTileNumber(map.containerPointToLatLng(L.point(mousePos.x, mousePos.y)));
-  document.getElementById('map').title = t>=0 ? names[t] : '';
-
-  c = document.getElementById('overlay');
-  if (t<0) {
-    c.style.visibility = 'hidden';
-    return;
-  }
-
-  bounds = getTileBounds(t);
-
-  var a = map.latLngToContainerPoint( L.latLng(bounds[0][0], bounds[0][1]) );
-  var b = map.latLngToContainerPoint( L.latLng(bounds[1][0], bounds[1][1]) );
-
-  c.style.left = a.x + 'px';
-  c.style.top = a.y + 'px';
-  c.style.width = (b.x-a.x) + 'px';
-  c.style.height = (b.y-a.y) + 'px';
-  c.style.visibility = 'visible';
-}
-
-map.on('mousemove', function(e) {
-  updateOverlay();
-});
-
-map.on('dragstart', function(e) {
-  history.replaceState(null, null, ' ');
-});
-
-map.on('zoomstart', function(e) {
-  document.getElementById('overlay').style.visibility = 'hidden';
-});
-
-map.on('zoomend', function(e) {
-  updateOverlay();
-});
-
-map.on('drag', function(e) {
-  updateOverlay();
-});
 
 let current_tile = null;
 
@@ -252,12 +175,16 @@ function zoomToTile(tileNumber) {
   let[[top,left],[bottom,right]] = getTileBounds(tileNumber);
   let extBounds = [[top-8,left],[bottom+8,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
+  let id = names[tileNumber];
   let popup = L.popup();
   let point = L.latLng(top,(left+right)/2);
-  let id = names[tileNumber];
-  window.location.hash = id;
   popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
+  window.location.hash = id;
 }
+
+map.on('popupclose', function(e) {
+  history.replaceState(null, null, ' '); // remove window.location.hash
+});
 
 map.on('click', function(e) {
   let t = getTileNumber(e.latlng);
@@ -268,7 +195,6 @@ map.on('click', function(e) {
     if (map.getZoom() > maxNativeZoom) {
       map.setZoom(maxNativeZoom);
       current_tile = null;
-      history.replaceState(null, null, ' '); // remove window.location.hash
     }
   } else {
     zoomToTile(t);
@@ -277,7 +203,7 @@ map.on('click', function(e) {
 
 window.onload = function(e) {
   if (location.hash.length<1) {
-    return
+    return;
   }
   let id = location.hash.slice(1);
   for (i=0; i<names.length; i++) {
