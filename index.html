@@ -167,6 +167,7 @@ searchControl = new L.Control.Search({
     return { abort: function() {} }
   },
   autoType: true,
+  firstTipSubmit: true,
   text:'Text...',
   markerLocation: true,
   initial: false,
@@ -174,7 +175,7 @@ searchControl = new L.Control.Search({
   autoResize: true,
   tooltipLimit: 100,
   marker: false,
-  //hideMarkerOnCollapse: true, // interferes with dragging
+  //hideMarkerOnCollapse: true, // messes up dragging
   moveToLocation: function(latlng, title, map) {
       let i = getTileNumber(latlng);
       if (i>=0) {
