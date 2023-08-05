@@ -54,7 +54,9 @@ let maxNativeZoom = settings.maxNativeZoom;
 
 let imageWidth = tileWidth*gridWidth;
 let imageHeight = tileHeight*gridHeight;
-let mapWidth = mapHeight = imageWidth;
+
+let mapWidth = 2**~~Math.log2(imageWidth);
+let mapHeight = mapWidth;
 let tileSize = 512;
 let factor = tileSize / mapWidth;
 let mapBounds = [[0,0], [mapHeight, mapWidth]];
