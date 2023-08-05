@@ -28,7 +28,7 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
 
     for key,ext in {'.gif-200x150.png':'.gif', '-200x150.png':'.png', '-200x150.gif':'.gif'}.items():
         if key in url:
-            fname = basedir + '/' + id + ext
+            fname = basedir + '/' + id + ".png"
             url = url.replace(key,ext)
             data.append((id, fname, url, title))
             names.add(fname)
@@ -53,7 +53,6 @@ for i, (id, fname, url, title) in enumerate(data):
         continue
 
     buf = response.read()
-    fname = fname.replace('.gif','.png')
 
     sys.stderr.write('writing file %d of %d %s\r' % (count, total, fname.ljust(60)))
     count += 1
