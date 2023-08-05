@@ -162,10 +162,6 @@ data.sort(function(a, b) {
 });
 
 searchControl = new L.Control.Search({
-  sourceData: function(text, callResponse) {
-    callResponse(data);
-    return { abort: function() {} }
-  },
   autoType: true,
   firstTipSubmit: true,
   text:'Text...',
@@ -175,15 +171,16 @@ searchControl = new L.Control.Search({
   autoResize: true,
   tooltipLimit: 100,
   marker: false,
-  //hideMarkerOnCollapse: true, // messes up dragging
+  sourceData: function(text, callResponse) {
+    callResponse(data);
+    return { abort: function() {} }
+  },
   moveToLocation: function(latlng, title, map) {
-      let i = getTileNumber(latlng);
-      if (i>=0) {
-        zoomToTile(i);
-      }
-      return true;
-  }
-  
+    let i = getTileNumber(latlng);
+    if (i>=0) {
+      zoomToTile(i);
+    }
+  },
 }).addTo(map);
 
 window.addEventListener("keydown",function (e) {
