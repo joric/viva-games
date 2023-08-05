@@ -5,13 +5,16 @@ from PIL import Image
 import io
 import sys
 
+basedir = 'images'
+size=(256,192)
+
 data = []
-
 names = set()
-
-basedir = 'gifs'
-
 lines = 0
+
+if not os.path.exists(basedir):
+    os.makedirs(basedir)
+
 for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
     try:
         id,title,url,pub=s[:4]
@@ -23,18 +26,17 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
         fname = basedir + '/'+ id + '.gif'
         url = url.replace('gif-200x150.png','gif')
         data.append((id, fname, url, title))
-        names.add(id+'.gif')
+        names.add(fname)
     elif '-200x150.png' in url: # must be rescaled png
         fname = basedir + '/' + id + '.gif'
         url = url.replace('-200x150.png','.png')
         data.append((id, fname, url, title))
-        names.add(id+'.gif')
+        names.add(fname)
     elif 'game-no-image' not in url:
         fname = basedir + '/' + id + '.gif'
         url = url.replace('-200x150','')
         data.append((id, fname, url, title))
-        names.add(id+'.gif')
-
+        names.add(fname)
 
 data.sort()
 
@@ -46,60 +48,32 @@ total = len( names )
 count = len( existing )
 
 for i, (id, fname, url, title) in enumerate(data):
-    if not os.path.exists(fname):
-        req = urllib.request.Request(url, None, {'User-Agent':'megaparser'})
+    if os.path.exists(fname):
+        continue
+    req = urllib.request.Request(url, None, {'User-Agent':'megaparser'})
 
-        try:
-            response = urllib.request.urlopen(req)
-        except urllib.error.HTTPError as e:
-            print('%s: name: %s url: %s' % (e, fname, url))
-            continue
+    try:
+        response = urllib.request.urlopen(req)
+    except urllib.error.HTTPError as e:
+        print('%s: name: %s url: %s' % (e, fname, url))
+        continue
 
-        buf = response.read()
+    buf = response.read()
+    fname = fname.replace('.gif','.png')
 
-        sys.stderr.write('writing file %d of %d %s\r' % (count, total, fname.ljust(60)))
-        count += 1
+    sys.stderr.write('writing file %d of %d %s\r' % (count, total, fname.ljust(60)))
+    count += 1
 
-        if url.endswith('.png'):
-            im = Image.open(io.BytesIO(buf))
-            im.thumbnail((256,192), Image.Resampling.NEAREST)
+    im = Image.open(io.BytesIO(buf))
+    im = im.convert('RGB')
+    if im.size != size:
+        #print('resizing', fname, 'to', size, 'was', im.size)
+        im = im.resize(size)
 
-            palette = [
-                0x00, 0x00, 0x00,
-                0x00, 0x00, 0xd8,
-                0x00, 0x00, 0xff,
-                0xd8, 0x00, 0x00,
-                0xff, 0x00, 0x00,
+    b = io.BytesIO()
+    im.save(b, 'png', optimize=True)
+    buf = b.getvalue()
 
-                0xd8, 0x00, 0xd8,
-                0xff, 0x00, 0xff,
-                0x00, 0xd8, 0x00,
-                0x00, 0xff, 0x00,
-                0x00, 0xd8, 0xd8,
-
-                0x00, 0xff, 0xff,
-                0xd8, 0xd8, 0x00,
-                0xff, 0xff, 0x00,
-                0xd8, 0xd8, 0xd8,
-                0xff, 0xff, 0xff,
-
-                0x00, 0x00, 0x00,
-            ]
-
-            p_img = Image.new('P', im.size)
-            p_img.putpalette(palette)
-
-            im = im.convert('RGB')
-
-            im = im.quantize(palette=p_img, dither=0)
-
-            b = io.BytesIO()
-            im.save(b, 'gif')
-            buf = b.getvalue()
-
-        f = open(fname,'wb')
-        f.write(buf)
-        f.close()
-
-
-
+    f = open(fname,'wb')
+    f.write(buf)
+    f.close()
