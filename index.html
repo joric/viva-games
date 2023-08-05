@@ -249,14 +249,14 @@ let current_tile = null;
 
 function zoomToTile(tileNumber) {
   current_tile = tileNumber;
+  let id = names[tileNumber];
+  window.location.hash = id;
   bounds = getTileBounds(tileNumber);
   let extBounds = [[bounds[0][0]-8,bounds[0][1]],[bounds[1][0]+8,bounds[1][1]]];
   map.flyToBounds(extBounds, {duration: 0.3});
   let popup = L.popup();
   let point = L.latLng(bounds[0][0],(bounds[0][1]+bounds[1][1])/2)
-  let id = names[tileNumber];
   popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
-  window.location.hash = id;
 }
 
 map.on('click', function(e) {
@@ -264,7 +264,6 @@ map.on('click', function(e) {
   if (t<0) {
     return;
   }
-
   if (t==current_tile) {
     if (map.getZoom() > maxNativeZoom) {
       map.setZoom(maxNativeZoom);
