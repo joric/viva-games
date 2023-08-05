@@ -22,21 +22,17 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
         print(e, s)
         exit(0)
     lines += 1
-    if '.gif-200x150.png' in url:
-        fname = basedir + '/'+ id + '.gif'
-        url = url.replace('gif-200x150.png','gif')
-        data.append((id, fname, url, title))
-        names.add(fname)
-    elif '-200x150.png' in url: # must be rescaled png
-        fname = basedir + '/' + id + '.gif'
-        url = url.replace('-200x150.png','.png')
-        data.append((id, fname, url, title))
-        names.add(fname)
-    elif 'game-no-image' not in url:
-        fname = basedir + '/' + id + '.gif'
-        url = url.replace('-200x150','')
-        data.append((id, fname, url, title))
-        names.add(fname)
+
+    if 'game-no-image' in url:
+        continue
+
+    for key,ext in {'.gif-200x150.png':'.gif', '-200x150.png':'.png', '-200x150.gif':'.gif'}.items():
+        if key in url:
+            fname = basedir + '/' + id + ext
+            url = url.replace(key,ext)
+            data.append((id, fname, url, title))
+            names.add(fname)
+            continue
 
 data.sort()
 
