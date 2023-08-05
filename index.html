@@ -254,8 +254,8 @@ map.on('click', function(e) {
     }
   } else {
     // zoom to tile
-    let tileBounds = [[bounds[0][0]-10,bounds[0][1]],[bounds[1][0]+10,bounds[1][1]]]
-    map.flyToBounds(bounds, {duration: 0.3});
+    let tileBounds = [[bounds[0][0]-8,bounds[0][1]],[bounds[1][0]+8,bounds[1][1]]];
+    map.flyToBounds(tileBounds, {duration: 0.3});
     current_tile = t;
     let popup = L.popup();
     let point = L.latLng(bounds[0][0],(bounds[0][1]+bounds[1][1])/2)
