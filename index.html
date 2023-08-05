@@ -109,7 +109,12 @@ L.tileLayer.myCustomLayer('', {
   edgeBufferTiles: 2,
 }).addTo(map);
 
+//map.setMaxBounds(mapBounds);  // elastic-y bounds
+map.setMaxBounds([[-h/2,-w/2], [h+h/2, w+w/2]]); // add borders so corners could be in the center
 
+//L.control.mousePosition({lngFirst: true}).addTo(map);
+
+// mini map
 var osm2 = L.tileLayer.myCustomLayer('', {
   minZoom: -2,
   minNativeZoom: minNativeZoom,
@@ -129,10 +134,6 @@ var miniMap = new L.Control.MiniMap(osm2, {
   shadowRectOptions: {color: "#000000", weight: 2, clickable: true, opacity: 0, fillOpacity: 0},
   position:'bottomleft',
 }).addTo(map);
-
-//map.setMaxBounds(mapBounds);
-
-//L.control.mousePosition({lngFirst: true}).addTo(map);
 
 var n = names.length;
 var data = new Array(n);
