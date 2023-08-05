@@ -180,7 +180,7 @@ let current_tile = null;
 function zoomToTile(i) {
   current_tile = i;
   let[[top,left],[bottom,right]] = getTileBounds(i);
-  let extBounds = [[top-8,left],[bottom+8,right]];
+  let extBounds = [[top-12,left],[bottom+12,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
   let popup = L.popup({maxWidth : 740});
   let point = L.latLng(top,(left+right)/2);
