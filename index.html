@@ -189,6 +189,8 @@ window.addEventListener("keydown",function (e) {
   }
 });
 
+currentTile = null;
+
 function zoomToTile(i) {
   let[[top,left],[bottom,right]] = getTileBounds(i);
   let extBounds = [[top-12,left],[bottom+12,right]];
@@ -198,13 +200,12 @@ function zoomToTile(i) {
   let [id,title,pub] = names[i];
   popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
   window.location.hash = id;
+  currentTile = i;
 }
 
 map.on('popupclose', function(e) {
   history.replaceState(null, null, ' '); // remove window.location.hash
 });
-
-currentTile = null;
 
 map.on('click', function(e) {
   let t = getTileNumber(e.latlng);
@@ -212,7 +213,6 @@ map.on('click', function(e) {
     return;
   }
   if (currentTile != t) {
-    currentTile = t
     zoomToTile(t);
   } else {
     map.setZoom(maxNativeZoom);
