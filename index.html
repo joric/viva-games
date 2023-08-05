@@ -35,6 +35,9 @@
         image-rendering: pixelated;
         overflow: hidden;
     }
+    .search-input {
+      width: 250px;
+    }
   </style>
 </head>
 <body>
@@ -114,6 +117,7 @@ var miniMap = new L.Control.MiniMap(osm2, {
   position:'bottomleft',
 }).addTo(map);
 
+// search
 var n = names.length;
 var data = new Array(n);
 for (var i=0; i<n; i++) {
@@ -121,8 +125,8 @@ for (var i=0; i<n; i++) {
     let top = (mapHeight - imageHeight)/2;
     let x = tileWidth/2 + left + tileWidth * (i % gridWidth);
     let y = tileHeight/2 + top + tileHeight * Math.floor(i / gridWidth);
-    let title = names[i];
-    data[i] = {"loc":[y,x], "title":title};
+    let [id,title,pub] = names[i];
+    data[i] = {"loc":[y,x], "title":title+' ('+pub+')'};
 }
 
 function localData(text, callResponse) {
@@ -138,6 +142,7 @@ map.addControl(new L.Control.Search({
   initial: false,
   hideMarkerOnCollapse: true,
   position: 'topright',
+  autoResize: true,
 }));
 
 function getBoundingBox() {
@@ -177,10 +182,10 @@ function zoomToTile(tileNumber) {
   let[[top,left],[bottom,right]] = getTileBounds(tileNumber);
   let extBounds = [[top-8,left],[bottom+8,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
-  let id = names[tileNumber];
   let popup = L.popup();
   let point = L.latLng(top,(left+right)/2);
-  popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
+  let [id,title,pub] = names[i];
+  popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
   window.location.hash = id;
 }
 
@@ -209,7 +214,7 @@ window.onload = function(e) {
   }
   let id = location.hash.slice(1);
   for (i=0; i<names.length; i++) {
-    if (id==names[i]) {
+    if (id==names[i][0]) {
       zoomToTile(i);
       break;
     }

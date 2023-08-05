@@ -264,7 +264,7 @@ for i in range(n):
     names[target_index] = id
 
 
-open('names.js','w').write('var names='+json.dumps(names,indent='  ')+';\n')
+open('names.txt','w').write('\n'.join(names))
 sys.stderr.write("Saving output file (%dx%d), please wait a few seconds...       \r" % (w,h))
 grid_img.save('output.png')
 
