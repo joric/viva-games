@@ -189,10 +189,7 @@ window.addEventListener("keydown",function (e) {
   }
 });
 
-let current_tile = null;
-
 function zoomToTile(i) {
-  current_tile = i;
   let[[top,left],[bottom,right]] = getTileBounds(i);
   let extBounds = [[top-12,left],[bottom+12,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
@@ -207,18 +204,19 @@ map.on('popupclose', function(e) {
   history.replaceState(null, null, ' '); // remove window.location.hash
 });
 
+currentTile = null;
+
 map.on('click', function(e) {
   let t = getTileNumber(e.latlng);
   if (t<0) {
     return;
   }
-  if (t==current_tile) {
-    if (map.getZoom() > maxNativeZoom) {
-      map.setZoom(maxNativeZoom);
-      current_tile = null;
-    }
-  } else {
+  if (currentTile != t) {
+    currentTile = t
     zoomToTile(t);
+  } else {
+    map.setZoom(maxNativeZoom);
+    currentTile = null;
   }
 });
 
