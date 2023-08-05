@@ -54,6 +54,7 @@
       margin: 0;
       text-indent: 3px;
       z-index: 1000;
+      visibility: hidden;
     }
   </style>
 </head>
@@ -164,25 +165,34 @@ map.on('mousemove', function(e) {
   //document.getElementById('map').title = t>=0 ? 'game ' + t : '';
 });
 
-let current_tile = null;
-
-function getTile(x,y) {
+function getBoundingBox() {
   let left = (w - pw)/2;
   let top = (h - ph)/2;
   let right = left + pw;
   let bottom = top + ph;
+  return [top,left,right,bottom];
+}
+
+function getTileNumber(latlng) {
+  let [top,left,right,bottom] = getBoundingBox();
+  let [y,x] = [latlng.lat, latlng.lng];
   if (x>=left && x<right && y>=top && y<bottom) {
     x -= left;
     y -= top;
     let tx = Math.floor(x / tw);
     let ty = Math.floor(y / th);
-    let t = tx + Math.floor(pw / tw) * ty;
-    let rx = left + tx * tw;
-    let ry = top + ty * th;
-    let bounds = [[ry, rx], [ry+th, rx+tw]];
-    return [t,bounds];
+    return tx + Math.floor(pw / tw) * ty;
   }
-  return [-1,[]];
+  return -1;
+}
+
+function getTileBounds(tileNumber) {
+  let [top,left,right,bottom] = getBoundingBox();
+  let tx = tileNumber % cw;
+  let ty = Math.floor(tileNumber / cw);
+  let rx = left + tx * tw;
+  let ry = top + ty * th;
+  return [[ry, rx], [ry+th, rx+tw]];
 }
 
 var mousePos = {x:0, y:0};
@@ -191,18 +201,18 @@ window.addEventListener('mousemove', (event) => {
 });
 
 function updateOverlay() {
+  return; // unused for now
 
-  let point = L.point(mousePos.x, mousePos.y);
-  let latlng = map.containerPointToLatLng(point);
-
-  [t,bounds] = getTile(latlng.lng, latlng.lat);
+  t = getTileNumber(map.containerPointToLatLng(L.point(mousePos.x, mousePos.y)));
   document.getElementById('map').title = t>=0 ? names[t] : '';
-  c = document.getElementById('overlay');
 
+  c = document.getElementById('overlay');
   if (t<0) {
     c.style.visibility = 'hidden';
     return;
   }
+
+  bounds = getTileBounds(t);
 
   var a = map.latLngToContainerPoint( L.latLng(bounds[0][0], bounds[0][1]) );
   var b = map.latLngToContainerPoint( L.latLng(bounds[1][0], bounds[1][1]) );
@@ -211,8 +221,7 @@ function updateOverlay() {
   c.style.top = a.y + 'px';
   c.style.width = (b.x-a.x) + 'px';
   c.style.height = (b.y-a.y) + 'px';
-  // c.style.visibility = 'visible'; hide overlay for now
-
+  c.style.visibility = 'visible';
 }
 
 map.on('mousemove', function(e) {
@@ -235,33 +244,49 @@ map.on('drag', function(e) {
   updateOverlay();
 });
 
+let current_tile = null;
+
+function zoomToTile(tileNumber) {
+  current_tile = tileNumber;
+  bounds = getTileBounds(tileNumber);
+  let extBounds = [[bounds[0][0]-8,bounds[0][1]],[bounds[1][0]+8,bounds[1][1]]];
+  map.flyToBounds(extBounds, {duration: 0.3});
+  let popup = L.popup();
+  let point = L.latLng(bounds[0][0],(bounds[0][1]+bounds[1][1])/2)
+  let id = names[tileNumber];
+  popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
+  window.location.hash = id;
+}
 
 map.on('click', function(e) {
-  let [t,bounds] = getTile(e.latlng.lng, e.latlng.lat);
-
+  let t = getTileNumber(e.latlng);
   if (t<0) {
     return;
   }
-
-  id = names[t];
-  window.location.hash = id;
 
   if (t==current_tile) {
     if (map.getZoom() > maxNativeZoom) {
       map.setZoom(maxNativeZoom);
       current_tile = null;
-      history.replaceState(null, null, ' ');
+      history.replaceState(null, null, ' '); // remove window.location.hash
     }
   } else {
-    // zoom to tile
-    let tileBounds = [[bounds[0][0]-8,bounds[0][1]],[bounds[1][0]+8,bounds[1][1]]];
-    map.flyToBounds(tileBounds, {duration: 0.3});
-    current_tile = t;
-    let popup = L.popup();
-    let point = L.latLng(bounds[0][0],(bounds[0][1]+bounds[1][1])/2)
-    popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
+    zoomToTile(t);
   }
 });
+
+window.onload = function(e) {
+  if (location.hash.length<1) {
+    return
+  }
+  let id = location.hash.slice(1);
+  for (i=0; i<names.length; i++) {
+    if (id==names[i]) {
+      zoomToTile(i);
+      break;
+    }
+  } 
+};
 
 </script>
 </body>
