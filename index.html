@@ -182,7 +182,7 @@ function zoomToTile(i) {
   let[[top,left],[bottom,right]] = getTileBounds(i);
   let extBounds = [[top-8,left],[bottom+8,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
-  let popup = L.popup();
+  let popup = L.popup({maxWidth : 740});
   let point = L.latLng(top,(left+right)/2);
   let [id,title,pub] = names[i];
   popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
