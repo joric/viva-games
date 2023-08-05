@@ -167,16 +167,18 @@ searchControl = new L.Control.Search({
   text:'Text...',
   markerLocation: true,
   initial: false,
-  hideMarkerOnCollapse: true,
   position: 'topright',
   autoResize: true,
   marker: false,
+  //hideMarkerOnCollapse: true, // interferes with dragging
   moveToLocation: function(latlng, title, map) {
       let i = getTileNumber(latlng);
       if (i>=0) {
         zoomToTile(i);
       }
+      return true;
   }
+  
 }).addTo(map);
 
 window.addEventListener("keydown",function (e) {
