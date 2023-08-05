@@ -61,36 +61,6 @@ let tileSize = 512;
 let factor = tileSize / mapWidth;
 let mapBounds = [[0,0], [mapHeight, mapWidth]];
 
-function getImageBounds() {
-  let left = (mapWidth - imageWidth)/2;
-  let top = (mapHeight - imageHeight)/2;
-  let right = left + imageWidth;
-  let bottom = top + imageHeight;
-  return [[top,left],[bottom,right]];
-}
-
-function getTileBounds(i) {
-  let [[top,left],[bottom,right]] = getImageBounds();
-  let tx = i % gridWidth;
-  let ty = Math.floor(i / gridWidth);
-  let rx = left + tx * tileWidth;
-  let ry = top + ty * tileHeight;
-  return [[ry, rx], [ry+tileHeight, rx+tileWidth]];
-}
-
-function getTileNumber(latlng) {
-  let [[top,left],[bottom,right]] = getImageBounds();
-  let [y,x] = [latlng.lat, latlng.lng];
-  if (x>=left && x<right && y>=top && y<bottom) {
-    x -= left;
-    y -= top;
-    let tx = Math.floor(x / tileWidth);
-    let ty = Math.floor(y / tileHeight);
-    return tx + Math.floor(imageWidth / tileWidth) * ty;
-  }
-  return -1;
-}
-
 L.CRS.myCRS = L.extend({}, L.CRS.Simple, {
   transformation: new L.Transformation(factor, 0, factor, 0),
 });
@@ -146,6 +116,36 @@ var miniMap = new L.Control.MiniMap(osm2, {
   shadowRectOptions: {color: "#000000", weight: 2, clickable: true, opacity: 0, fillOpacity: 0},
   position:'bottomleft',
 }).addTo(map);
+
+function getImageBounds() {
+  let left = (mapWidth - imageWidth)/2;
+  let top = (mapHeight - imageHeight)/2;
+  let right = left + imageWidth;
+  let bottom = top + imageHeight;
+  return [[top,left],[bottom,right]];
+}
+
+function getTileBounds(i) {
+  let [[top,left],[bottom,right]] = getImageBounds();
+  let tx = i % gridWidth;
+  let ty = Math.floor(i / gridWidth);
+  let rx = left + tx * tileWidth;
+  let ry = top + ty * tileHeight;
+  return [[ry, rx], [ry+tileHeight, rx+tileWidth]];
+}
+
+function getTileNumber(latlng) {
+  let [[top,left],[bottom,right]] = getImageBounds();
+  let [y,x] = [latlng.lat, latlng.lng];
+  if (x>=left && x<right && y>=top && y<bottom) {
+    x -= left;
+    y -= top;
+    let tx = Math.floor(x / tileWidth);
+    let ty = Math.floor(y / tileHeight);
+    return tx + Math.floor(imageWidth / tileWidth) * ty;
+  }
+  return -1;
+}
 
 // search
 var n = names.length;
