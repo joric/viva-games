@@ -35,13 +35,11 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
             continue
 
 data.sort()
-
 print('lines read %d, usable names %d' % (lines, len(names)))
 
 existing = set([e.name for e in os.scandir(basedir)])
-
-total = len( names )
-count = len( existing )
+total = len(names)
+count = len(existing)
 
 for i, (id, fname, url, title) in enumerate(data):
     if os.path.exists(fname):
