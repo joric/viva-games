@@ -150,12 +150,14 @@ function getTileNumber(latlng) {
 // search
 var n = names.length;
 var data = new Array(n);
+var lookup = {};
 for (var i=0; i<n; i++) {
     let [id,title,pub] = names[i];
     let [[top,left],[bottom,right]] = getTileBounds(i);
     let x = left + (right-left) / 2;
     let y = top + (bottom-top) / 2;
     data[i] = {"loc":[y,x], "title":title+' ('+pub+')'};
+    lookup[id] = i;
 }
 data.sort(function(a, b) {
     return a.title.localeCompare(b.title)
@@ -222,16 +224,9 @@ map.on('click', function(e) {
 });
 
 window.onload = function(e) {
-  if (location.hash.length<1) {
-    return;
+  if (location.hash.length>1) {
+    zoomToTile(lookup[location.hash.slice(1)]);
   }
-  let id = location.hash.slice(1);
-  for (i=0; i<names.length; i++) {
-    if (id==names[i][0]) {
-      zoomToTile(i);
-      break;
-    }
-  } 
 };
 
 </script>
