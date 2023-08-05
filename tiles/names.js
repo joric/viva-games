@@ -63,7 +63,7 @@ var names=
   [
     "graf-2",
     "Graf 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cyborg-2900",
@@ -193,12 +193,12 @@ var names=
   [
     "house-of-the-dead",
     "House of the Dead",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "castillo-encantado",
     "Castillo Encantado",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "columns-4",
@@ -238,7 +238,7 @@ var names=
   [
     "after-45",
     "After 45",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "hlasovy-program",
@@ -1028,7 +1028,7 @@ var names=
   [
     "party-quiz",
     "Party Quiz",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "mineman-2",
@@ -1268,7 +1268,7 @@ var names=
   [
     "war-lord",
     "War-Lord",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "missing-princess-the",
@@ -1463,7 +1463,7 @@ var names=
   [
     "space-invasion",
     "Space Invasion",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "caracteres-gigantes",
@@ -1553,7 +1553,7 @@ var names=
   [
     "santas-search",
     "Santa's Search",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "great-space-race-the",
@@ -1663,7 +1663,7 @@ var names=
   [
     "sida",
     "SIDA",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spooked",
@@ -1698,7 +1698,7 @@ var names=
   [
     "mescaline-synesthesia",
     "Mescaline Synesthesia",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2009"
+    "Unknown publisher, 2009"
   ],
   [
     "captain-fizz-level-editor",
@@ -1993,7 +1993,7 @@ var names=
   [
     "calipse",
     "Calipse",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "d-posicion",
@@ -2133,7 +2133,7 @@ var names=
   [
     "wake-me-up",
     "Wake Me Up!",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2015"
+    "Unknown publisher, 2015"
   ],
   [
     "warlock-2",
@@ -2143,7 +2143,7 @@ var names=
   [
     "load-save",
     "LOAD &amp; SAVE",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1994"
+    "Unknown publisher, 1994"
   ],
   [
     "television-demo-the",
@@ -2168,7 +2168,7 @@ var names=
   [
     "lemmings-editor",
     "Lemmings Editor",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "adventures-of-barsak-the-dwarf",
@@ -2288,7 +2288,7 @@ var names=
   [
     "amiga-world",
     "Amiga World",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dj-puff",
@@ -2738,7 +2738,7 @@ var names=
   [
     "gdr",
     "GDR",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "new-angles",
@@ -2838,7 +2838,7 @@ var names=
   [
     "bouncing-berty",
     "Bouncing Berty",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "data-file-2",
@@ -3393,7 +3393,7 @@ var names=
   [
     "merry-christmas-2",
     "Merry Christmas",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tapecopy",
@@ -3528,12 +3528,12 @@ var names=
   [
     "mcdonald-copy",
     "McDonald Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "capricornio-2",
     "Capricornio 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "heri",
@@ -3568,7 +3568,7 @@ var names=
   [
     "rings-of-saturn-the",
     "Rings of Saturn, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rst-commander",
@@ -3598,7 +3598,7 @@ var names=
   [
     "sintetizador-de-voz-para-tk90x-e-compativeis",
     "Sintetizador de Voz para TK90X e Compativeis",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "bomber-5",
@@ -3613,7 +3613,7 @@ var names=
   [
     "list-scroll",
     "List Scroll",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "biorhythms-6",
@@ -3858,7 +3858,7 @@ var names=
   [
     "gunfright-returns-reloaded",
     "Gunfright Returns - Reloaded",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "inquisitor",
@@ -4123,7 +4123,7 @@ var names=
   [
     "greatest-hits-of-kolesnik-andrei",
     "Greatest Hits of Kolesnik Andrei",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cvokarna",
@@ -4158,7 +4158,7 @@ var names=
   [
     "duckshoot",
     "Duckshoot",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "polozenie-ciala",
@@ -4308,7 +4308,7 @@ var names=
   [
     "sinti",
     "Sinti",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "blues-brothers-the-2",
@@ -4468,7 +4468,7 @@ var names=
   [
     "space-egg",
     "Space Egg",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "street-sports-basketball",
@@ -4478,7 +4478,7 @@ var names=
   [
     "booze-up",
     "Booze Up",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "turbo-maker",
@@ -4503,7 +4503,7 @@ var names=
   [
     "pavonian",
     "Pavonian",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mighty-magus",
@@ -4653,7 +4653,7 @@ var names=
   [
     "nazi-demo",
     "Nazi Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "merkur-disc",
@@ -4828,7 +4828,7 @@ var names=
   [
     "watching-you",
     "Watching You",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "magus",
@@ -5068,7 +5068,7 @@ var names=
   [
     "fun-maths",
     "Fun Maths",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cyborg-terminator-2",
@@ -5093,7 +5093,7 @@ var names=
   [
     "jedicopy-and-supersave",
     "Jedicopy and Supersave",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "last-believer-the",
@@ -5143,7 +5143,7 @@ var names=
   [
     "springer",
     "Springer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tube-cube",
@@ -5163,7 +5163,7 @@ var names=
   [
     "softcopy",
     "Softcopy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "space-quest-2",
@@ -5253,7 +5253,7 @@ var names=
   [
     "adversary",
     "Adversary",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "geography-6",
@@ -5443,7 +5443,7 @@ var names=
   [
     "zx-worms",
     "Zx Worms",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "octan",
@@ -5683,7 +5683,7 @@ var names=
   [
     "hyperkill",
     "Hyperkill",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "kryssy-2",
@@ -5793,7 +5793,7 @@ var names=
   [
     "odysseus-party-minishow",
     "Odysseus Party Minishow",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "empires",
@@ -5873,7 +5873,7 @@ var names=
   [
     "mondphasen",
     "Mondphasen",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "happy-birthday-mic",
@@ -6018,12 +6018,12 @@ var names=
   [
     "toolkit",
     "Toolkit",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "quiz-game",
     "Quiz Game",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "st-moritz",
@@ -6353,7 +6353,7 @@ var names=
   [
     "summer-sounds",
     "Summer Sounds",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "opium-4k",
@@ -6403,7 +6403,7 @@ var names=
   [
     "shuffle-commander",
     "Shuffle Commander",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "simon-said",
@@ -6433,7 +6433,7 @@ var names=
   [
     "pesadilla",
     "Pesadilla",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "vendelin-v-zakletem-dome",
@@ -6478,7 +6478,7 @@ var names=
   [
     "air-space",
     "Air Space",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "oligopoly",
@@ -6628,7 +6628,7 @@ var names=
   [
     "phrenetic",
     "Phrenetic",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "rtclip",
@@ -6673,7 +6673,7 @@ var names=
   [
     "dictionary",
     "Dictionary",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spectrum-assembler",
@@ -6758,7 +6758,7 @@ var names=
   [
     "bruchrechen-training",
     "Bruchrechen-Training",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "basicode-2",
@@ -6988,12 +6988,12 @@ var names=
   [
     "red-sector",
     "Red Sector",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "orc-island",
     "Orc Island",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "plasmodium-astral-complex",
@@ -7248,7 +7248,7 @@ var names=
   [
     "tronn-3",
     "Tronn 3",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cats-2",
@@ -7353,7 +7353,7 @@ var names=
   [
     "apanage",
     "Apanage",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "crime-santa-clause",
@@ -7483,7 +7483,7 @@ var names=
   [
     "tetris-3z",
     "Tetris 3Z",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "red-cap",
@@ -7623,12 +7623,12 @@ var names=
   [
     "geography",
     "Geography",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ninja-grannies",
     "Ninja Grannies",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dodgems-3",
@@ -7643,7 +7643,7 @@ var names=
   [
     "futura",
     "Futura",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "selvaticus",
@@ -7653,7 +7653,7 @@ var names=
   [
     "roulette-11",
     "Roulette",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1982"
+    "Unknown publisher, 1982"
   ],
   [
     "brick-breaker",
@@ -7828,7 +7828,7 @@ var names=
   [
     "geister-fahrer",
     "Geister Fahrer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tresor-du-docteur-spectradamus-le",
@@ -7918,7 +7918,7 @@ var names=
   [
     "funkcje-2",
     "Funkcje",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "shedmaster-bounds-green",
@@ -7993,7 +7993,7 @@ var names=
   [
     "musical-megademo-1-the",
     "Musical Megademo 1, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "g-i-joe",
@@ -8088,7 +8088,7 @@ var names=
   [
     "masterminde",
     "Masterminde",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "snake-8",
@@ -8148,7 +8148,7 @@ var names=
   [
     "kalkulacka",
     "Kalkulacka",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tobor",
@@ -8673,7 +8673,7 @@ var names=
   [
     "begin-5-multiple-choise-tester",
     "Begin 5: Multiple Choise Tester",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "espia-el",
@@ -8828,7 +8828,7 @@ var names=
   [
     "manje-vise",
     "Manje-Vise",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "galen",
@@ -9063,7 +9063,7 @@ var names=
   [
     "chiromant",
     "Chiromant",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "lady-knight",
@@ -9138,7 +9138,7 @@ var names=
   [
     "joes-drink-stand",
     "Joe's Drink Stand",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "control-de-stocks",
@@ -9238,7 +9238,7 @@ var names=
   [
     "fill",
     "Fill",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ventamatic-centronics",
@@ -9298,7 +9298,7 @@ var names=
   [
     "user-graphic-tablet",
     "User Graphic Tablet",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rzut-ukosny",
@@ -9318,7 +9318,7 @@ var names=
   [
     "tapelook",
     "Tapelook",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "caos-de-historia",
@@ -9343,7 +9343,7 @@ var names=
   [
     "tape-reg",
     "Tape Reg",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dichiarazione-delle-persone-fisiche",
@@ -9453,7 +9453,7 @@ var names=
   [
     "baby-monkey-alba",
     "Baby Monkey Alba",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "autopista-2",
@@ -9623,7 +9623,7 @@ var names=
   [
     "talfransk",
     "Talfransk",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "floppytrax",
@@ -9873,7 +9873,7 @@ var names=
   [
     "copy",
     "Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tops-and-tails",
@@ -10083,7 +10083,7 @@ var names=
   [
     "test-lushera",
     "Test Lushera",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "great-fire-of-london-the",
@@ -10338,12 +10338,12 @@ var names=
   [
     "logo",
     "Logo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tarantulas",
     "Tarantulas",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sorderons-shadow",
@@ -10418,7 +10418,7 @@ var names=
   [
     "animator",
     "Animator",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "soko-ban-line",
@@ -10508,7 +10508,7 @@ var names=
   [
     "quinielas",
     "Quinielas",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "gravely-manor",
@@ -10603,7 +10603,7 @@ var names=
   [
     "regresioa-analyza",
     "Regresioa Analyza",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "find-the-rabbit",
@@ -10678,7 +10678,7 @@ var names=
   [
     "taper",
     "Taper",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cardioids-and-nephroids",
@@ -10778,7 +10778,7 @@ var names=
   [
     "slowscan-television",
     "Slowscan Television",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "physics-7",
@@ -10858,7 +10858,7 @@ var names=
   [
     "names-and-character",
     "Names and Character",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1999"
+    "Unknown publisher, 1999"
   ],
   [
     "double-trouble",
@@ -11108,7 +11108,7 @@ var names=
   [
     "ruch-elektronu",
     "Ruch Elektronu",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "editor-grafico",
@@ -11233,7 +11233,7 @@ var names=
   [
     "pict-load",
     "Pict Load",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "fruit-machine-9",
@@ -11248,7 +11248,7 @@ var names=
   [
     "spectrum-edv",
     "Spectrum EDV",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "blood-jack-the",
@@ -11308,7 +11308,7 @@ var names=
   [
     "copy-cat",
     "Copy Cat",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cricket-4",
@@ -11508,7 +11508,7 @@ var names=
   [
     "moritz",
     "Moritz",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "ufo-4",
@@ -11598,7 +11598,7 @@ var names=
   [
     "lost-in-worlds",
     "Lost In Worlds",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "maverick",
@@ -11633,7 +11633,7 @@ var names=
   [
     "gablota",
     "Gablota",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "relatos-de-ahion",
@@ -11848,7 +11848,7 @@ var names=
   [
     "add",
     "Add",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1995"
+    "Unknown publisher, 1995"
   ],
   [
     "oil-tycoon",
@@ -12158,7 +12158,7 @@ var names=
   [
     "rainbow-4k",
     "Rainbow 4K",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "buzzy-bee",
@@ -12368,7 +12368,7 @@ var names=
   [
     "english",
     "English",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "smiler",
@@ -12433,12 +12433,12 @@ var names=
   [
     "super-toolkit",
     "Super Toolkit",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "beta-rom-2",
     "Beta ROM 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mam-plan",
@@ -12478,12 +12478,12 @@ var names=
   [
     "assembler-sources",
     "Assembler Sources",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "reds",
     "Reds",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cassette-labeller-2",
@@ -12508,7 +12508,7 @@ var names=
   [
     "short-memory-test",
     "Short Memory Test",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "interrupt-sound-effects",
@@ -12543,7 +12543,7 @@ var names=
   [
     "projektowanie-plytek-pcb",
     "Projektowanie Plytek PCB",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "asteroides",
@@ -12573,7 +12573,7 @@ var names=
   [
     "reaction-tester",
     "Reaction Tester",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "stretch",
@@ -12698,7 +12698,7 @@ var names=
   [
     "algebra-10",
     "Algebra 10",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "address-your-envelopes",
@@ -12798,7 +12798,7 @@ var names=
   [
     "dynamite-duo",
     "Dynamite Duo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "fabled-black-rose-the",
@@ -12908,7 +12908,7 @@ var names=
   [
     "real-robocop-the",
     "Real Robocop, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "gombfoci",
@@ -13023,7 +13023,7 @@ var names=
   [
     "egyptian-pyramid",
     "Egyptian Pyramid",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "coingame",
@@ -13063,7 +13063,7 @@ var names=
   [
     "arbatax",
     "Arbatax",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "leapfrog-2",
@@ -13158,7 +13158,7 @@ var names=
   [
     "waz",
     "Waz",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "tapelabel",
@@ -13178,7 +13178,7 @@ var names=
   [
     "simon",
     "Simon",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "scramble",
@@ -13238,7 +13238,7 @@ var names=
   [
     "prog",
     "Prog+",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "racetrack",
@@ -13378,7 +13378,7 @@ var names=
   [
     "128-48-copy",
     "128/48 Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "totocalcio",
@@ -13503,7 +13503,7 @@ var names=
   [
     "graficos-de-empresa",
     "Graficos de Empresa",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "arquimedes-xxi",
@@ -13563,7 +13563,7 @@ var names=
   [
     "cave-fighter",
     "Cave-Fighter",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "outlet-clipper-005-the",
@@ -13623,7 +13623,7 @@ var names=
   [
     "ukleti-dvorac",
     "Ukleti Dvorac",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "space-finder",
@@ -13698,7 +13698,7 @@ var names=
   [
     "tapecopy-2",
     "Tapecopy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "inka-tempel",
@@ -13743,7 +13743,7 @@ var names=
   [
     "monitor-2-2",
     "Monitor 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "progs-file",
@@ -13773,7 +13773,7 @@ var names=
   [
     "spriegumi",
     "Spriegumi",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "text-compressor-decompressor",
@@ -13848,7 +13848,7 @@ var names=
   [
     "turbo-copy",
     "Turbo Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "funzioni",
@@ -13898,7 +13898,7 @@ var names=
   [
     "tron",
     "Tron",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mgt-copy",
@@ -14008,7 +14008,7 @@ var names=
   [
     "digi-synth",
     "Digi Synth",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "alien-kill",
@@ -14193,7 +14193,7 @@ var names=
   [
     "serpenti",
     "Serpenti",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "pyjamarama",
@@ -14228,7 +14228,7 @@ var names=
   [
     "demo-speech",
     "Demo Speech",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "honey-assembler",
@@ -14318,7 +14318,7 @@ var names=
   [
     "nuty",
     "Nuty",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "defusion-2",
@@ -14348,7 +14348,7 @@ var names=
   [
     "komunist",
     "Komunist",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "hexdec",
@@ -14433,7 +14433,7 @@ var names=
   [
     "stadt-alzan-die",
     "Stadt Alzan, Die",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sort",
@@ -14773,7 +14773,7 @@ var names=
   [
     "whistle",
     "Whistle",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "excess-de-luxe-paint",
@@ -14868,7 +14868,7 @@ var names=
   [
     "sand-conversion",
     "Sand Conversion",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "debug-a",
@@ -14898,7 +14898,7 @@ var names=
   [
     "sinclair-128k-to-8056-serial-printer",
     "Sinclair 128K to 8056 Serial Printer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "four-rules-the",
@@ -14953,7 +14953,7 @@ var names=
   [
     "fongen1",
     "Fongen1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "class-50-rover",
@@ -15193,7 +15193,7 @@ var names=
   [
     "dirty-dozer",
     "Dirty Dozer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2019"
+    "Unknown publisher, 2019"
   ],
   [
     "specpanel",
@@ -15458,7 +15458,7 @@ var names=
   [
     "auf-wiedersehen-monty-2",
     "Auf Wiedersehen Monty",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "frogger-7",
@@ -15578,7 +15578,7 @@ var names=
   [
     "mastermind",
     "Mastermind",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "vetrelec",
@@ -15603,12 +15603,12 @@ var names=
   [
     "pixel-power",
     "Pixel Power",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "drumbeat",
     "Drumbeat",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "renumber-7",
@@ -15748,7 +15748,7 @@ var names=
   [
     "tape-diagnostics",
     "Tape Diagnostics",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "racing-game-the",
@@ -15758,7 +15758,7 @@ var names=
   [
     "simulacion-de-empresas",
     "Simulacion de Empresas",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "nevera",
@@ -15773,7 +15773,7 @@ var names=
   [
     "super-serif-bros",
     "Super Serif Bros.",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "panels",
@@ -15788,7 +15788,7 @@ var names=
   [
     "fast-format",
     "Fast Format",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rtc-doncaster",
@@ -15818,7 +15818,7 @@ var names=
   [
     "xelda-the-quest-for-the-golden-apple",
     "Xelda, the Quest for the Golden Apple",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "immortality-rules-ok",
@@ -16193,7 +16193,7 @@ var names=
   [
     "capsule",
     "Capsule",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "line-walk",
@@ -16228,7 +16228,7 @@ var names=
   [
     "run-opus",
     "Run OPUS",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mf-print",
@@ -16253,7 +16253,7 @@ var names=
   [
     "kraj-skole",
     "Kraj Skole",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "podraz-4",
@@ -16278,7 +16278,7 @@ var names=
   [
     "centronics-schnittstelle",
     "Centronics-Schnittstelle",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "conversor-2-0",
@@ -16448,7 +16448,7 @@ var names=
   [
     "draculas-diamanten",
     "Draculas Diamanten",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "time-traveller",
@@ -16658,7 +16658,7 @@ var names=
   [
     "petes-jukebox-2",
     "Pete's Jukebox 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "predator",
@@ -16673,7 +16673,7 @@ var names=
   [
     "spellcaster",
     "Spellcaster",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spatial-mission-1",
@@ -16848,7 +16848,7 @@ var names=
   [
     "pirate-tape-copy",
     "Pirate Tape Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "lunar-rescue",
@@ -16918,7 +16918,7 @@ var names=
   [
     "monster-copy",
     "Monster Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "coursewinner",
@@ -16933,7 +16933,7 @@ var names=
   [
     "othello",
     "Othello",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "amateur-radio-log-book",
@@ -16958,7 +16958,7 @@ var names=
   [
     "master-4",
     "Master 4",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "othello-14",
@@ -17033,7 +17033,7 @@ var names=
   [
     "beta-rom",
     "Beta ROM",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spec-sound",
@@ -17048,7 +17048,7 @@ var names=
   [
     "rom-copy",
     "ROM Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "microbug",
@@ -17128,7 +17128,7 @@ var names=
   [
     "graphics-3d",
     "Graphics, 3D",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "explodeit",
@@ -17193,7 +17193,7 @@ var names=
   [
     "pages-pasqual",
     "Pages Pasqual",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "space-trader",
@@ -17333,7 +17333,7 @@ var names=
   [
     "digital-designer-pro",
     "Digital Designer Pro",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "time-of-the-end",
@@ -17668,7 +17668,7 @@ var names=
   [
     "copy-plus",
     "Copy-Plus",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "who-said-it",
@@ -17718,7 +17718,7 @@ var names=
   [
     "dyktando",
     "Dyktando",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "samurai-warrior",
@@ -17833,7 +17833,7 @@ var names=
   [
     "horoskop",
     "Horoskop",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "to-the-top-2",
@@ -18083,7 +18083,7 @@ var names=
   [
     "english-russian-dictionary",
     "English-Russian Dictionary",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "bubble-bobble-music-demo",
@@ -18658,7 +18658,7 @@ var names=
   [
     "heavyweight",
     "Heavyweight",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "hallowart",
@@ -18798,7 +18798,7 @@ var names=
   [
     "andeskydning",
     "Andeskydning",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "m-c-library",
@@ -18818,7 +18818,7 @@ var names=
   [
     "ukladanka",
     "Ukladanka",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "critical-mass",
@@ -18878,7 +18878,7 @@ var names=
   [
     "spar-key",
     "Spar-Key",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "quimica",
@@ -18983,7 +18983,7 @@ var names=
   [
     "rotation-2",
     "Rotation",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "vanity",
@@ -19133,7 +19133,7 @@ var names=
   [
     "ring-master",
     "Ring Master",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "scriptum",
@@ -19358,7 +19358,7 @@ var names=
   [
     "reversi",
     "Reversi",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mozart",
@@ -19428,7 +19428,7 @@ var names=
   [
     "snakey",
     "Snakey",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "labyrinth-4",
@@ -19453,7 +19453,7 @@ var names=
   [
     "gama-copy",
     "Gama Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "silo-raid",
@@ -19493,7 +19493,7 @@ var names=
   [
     "take-4",
     "Take 4",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1982"
+    "Unknown publisher, 1982"
   ],
   [
     "master-golf",
@@ -19553,7 +19553,7 @@ var names=
   [
     "side-print",
     "Side Print",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "maze-man",
@@ -19573,7 +19573,7 @@ var names=
   [
     "bingo",
     "Bingo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "superchess-3",
@@ -19598,7 +19598,7 @@ var names=
   [
     "jet-set-willy-editor",
     "Jet Set Willy Editor",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cardano",
@@ -19683,7 +19683,7 @@ var names=
   [
     "egemond",
     "Egemond",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "linkword-german",
@@ -19828,7 +19828,7 @@ var names=
   [
     "tank-1990-128k",
     "TANK-1990 128k",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "soccer-7",
@@ -20018,7 +20018,7 @@ var names=
   [
     "dis-basic",
     "Dis BASIC",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "play-your-cards-right-2",
@@ -20133,7 +20133,7 @@ var names=
   [
     "budget-account",
     "Budget Account",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "champions-of-cricket-world-cup-cricket-all-time-greats",
@@ -20183,7 +20183,7 @@ var names=
   [
     "szafran-demo",
     "Szafran Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "4k-race-refueled",
@@ -20488,7 +20488,7 @@ var names=
   [
     "manager-2-2",
     "Manager [2]",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2000"
+    "Unknown publisher, 2000"
   ],
   [
     "i-worm-1k",
@@ -20498,7 +20498,7 @@ var names=
   [
     "pac-man-copy",
     "Pac-Man Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "omnicopy-2",
@@ -20573,7 +20573,7 @@ var names=
   [
     "b-squared",
     "B-Squared",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "never-go-with-strangers",
@@ -20668,7 +20668,7 @@ var names=
   [
     "schaltplan",
     "Schaltplan",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tape-dump-2",
@@ -20718,7 +20718,7 @@ var names=
   [
     "avioni",
     "Avioni",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "bytes-mover",
@@ -20768,7 +20768,7 @@ var names=
   [
     "testbild",
     "Testbild",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "track-suit-manager",
@@ -20973,7 +20973,7 @@ var names=
   [
     "textedit",
     "Textedit",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "corrector",
@@ -21078,7 +21078,7 @@ var names=
   [
     "mucroid-run",
     "Mucroid Run",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "resaca",
@@ -21298,7 +21298,7 @@ var names=
   [
     "program-base",
     "Program Base",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "crawler",
@@ -21343,7 +21343,7 @@ var names=
   [
     "eliza",
     "Eliza",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "m-code-library-2-window-scrolling",
@@ -21973,7 +21973,7 @@ var names=
   [
     "3k-music-m",
     "3K Music M",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "uve-la-emboscada",
@@ -22338,7 +22338,7 @@ var names=
   [
     "connect-4",
     "Connect 4",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "alien-swarm",
@@ -22363,7 +22363,7 @@ var names=
   [
     "h2o",
     "H2O",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "asucar",
@@ -22593,7 +22593,7 @@ var names=
   [
     "header-reader-to-dos-file",
     "Header Reader to DOS File",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "star-course",
@@ -22878,7 +22878,7 @@ var names=
   [
     "mail",
     "Mail",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "strike-attack",
@@ -22888,7 +22888,7 @@ var names=
   [
     "universalschrift",
     "Universalschrift",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "merglogo",
@@ -22898,7 +22898,7 @@ var names=
   [
     "pozar-wiezowca",
     "Pozar Wiezowca",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "prolec-lector-de-cabeceras",
@@ -22908,12 +22908,12 @@ var names=
   [
     "music-computer",
     "Music-Computer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "jump-frog",
     "Jump Frog",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mallard-basic",
@@ -23018,12 +23018,12 @@ var names=
   [
     "3-defens",
     "3-Defens",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "xonix-2",
     "Xonix",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "ruby",
@@ -23088,7 +23088,7 @@ var names=
   [
     "pirates-3",
     "Pirates",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "street-gang-football",
@@ -23188,7 +23188,7 @@ var names=
   [
     "loader",
     "Loader",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "stardrive",
@@ -23328,7 +23328,7 @@ var names=
   [
     "doolhof",
     "Doolhof",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "circus",
@@ -23448,7 +23448,7 @@ var names=
   [
     "vier-op-een-rij",
     "Vier op een Rij",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1982"
+    "Unknown publisher, 1982"
   ],
   [
     "streams",
@@ -23588,7 +23588,7 @@ var names=
   [
     "manor-murder-case-the",
     "Manor Murder Case, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "disk-manager",
@@ -23693,7 +23693,7 @@ var names=
   [
     "turbo-pascal",
     "Turbo Pascal",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "last-raider",
@@ -23913,7 +23913,7 @@ var names=
   [
     "assembler",
     "Assembler",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "disckit-demo",
@@ -23923,7 +23923,7 @@ var names=
   [
     "puluc",
     "Puluc",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "agenda-telefonica",
@@ -24128,7 +24128,7 @@ var names=
   [
     "color-lines",
     "Color Lines",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "shifty",
@@ -24148,7 +24148,7 @@ var names=
   [
     "mina-a",
     "Mina, A",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2012"
+    "Unknown publisher, 2012"
   ],
   [
     "physics-10-2",
@@ -24363,7 +24363,7 @@ var names=
   [
     "graf-3",
     "Graf 3",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "blopy",
@@ -24478,7 +24478,7 @@ var names=
   [
     "hado-basic",
     "Hado Basic",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "bodyswop",
@@ -24488,7 +24488,7 @@ var names=
   [
     "spectrum-chess",
     "Spectrum Chess",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "e-s-p",
@@ -24508,7 +24508,7 @@ var names=
   [
     "erudite",
     "Erudite",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1995"
+    "Unknown publisher, 1995"
   ],
   [
     "solitaire-2",
@@ -24668,7 +24668,7 @@ var names=
   [
     "microsoft-golf",
     "Microsoft Golf",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "transtape",
@@ -24753,7 +24753,7 @@ var names=
   [
     "saga-dark",
     "Saga Dark",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "delfox",
@@ -24828,7 +24828,7 @@ var names=
   [
     "grafik-3d",
     "Grafik 3D",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "window-scrolls",
@@ -24958,7 +24958,7 @@ var names=
   [
     "gift-to-proxima",
     "Gift to Proxima",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "japanese-contrast",
@@ -25133,7 +25133,7 @@ var names=
   [
     "dan-rodjenja",
     "Dan Rodjenja",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "adivina-2",
@@ -25248,7 +25248,7 @@ var names=
   [
     "kuzelky",
     "Kuzelky",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "jp-clone",
@@ -25808,7 +25808,7 @@ var names=
   [
     "datenbank",
     "Datenbank",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "bounty",
@@ -25898,7 +25898,7 @@ var names=
   [
     "musica",
     "Musica",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "switch-grayscale-patch-for-disciple-3c-3d",
@@ -25938,7 +25938,7 @@ var names=
   [
     "poker-1",
     "Poker [1]",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "prince-clumsy",
@@ -26453,7 +26453,7 @@ var names=
   [
     "graphics-1",
     "Graphics 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sketch",
@@ -26718,7 +26718,7 @@ var names=
   [
     "graphics-utility",
     "Graphics Utility",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "reflections",
@@ -27658,7 +27658,7 @@ var names=
   [
     "ricochet-2",
     "Ricochet",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "jib-goes-shopping",
@@ -27753,7 +27753,7 @@ var names=
   [
     "ari",
     "Ari",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "hatched-fill",
@@ -27763,12 +27763,12 @@ var names=
   [
     "lebenslauf",
     "Lebenslauf",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "plot-3d",
     "Plot, 3D",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "representacion-grafica",
@@ -28073,7 +28073,7 @@ var names=
   [
     "paralactika",
     "Paralactika",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2011"
+    "Unknown publisher, 2011"
   ],
   [
     "vicomm-modem-2",
@@ -28168,7 +28168,7 @@ var names=
   [
     "for-peace-in-yugoslavia",
     "For Peace in Yugoslavia",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "for-the-united-minds",
@@ -28343,7 +28343,7 @@ var names=
   [
     "plot-print",
     "Plot-Print",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "adaptador-s-i-t-i",
@@ -29038,7 +29038,7 @@ var names=
   [
     "pirat-copy",
     "Pirat Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "bandit-5",
@@ -29178,7 +29178,7 @@ var names=
   [
     "mechwars",
     "MechWars",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ojo-del-dragon-el",
@@ -29733,7 +29733,7 @@ var names=
   [
     "kasetten-inhalt",
     "Kasetten Inhalt",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "warp-factor-6",
@@ -29813,7 +29813,7 @@ var names=
   [
     "lone-brave",
     "Lone Brave",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dan-dare-iii-the-escape",
@@ -29943,7 +29943,7 @@ var names=
   [
     "bowling",
     "Bowling",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "aniquile",
@@ -30103,7 +30103,7 @@ var names=
   [
     "ritm-3",
     "RITM 3",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "twelve-days-of-christmas-the",
@@ -30368,7 +30368,7 @@ var names=
   [
     "headerlist",
     "Headerlist",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "spectrum-fivebyte-representation",
@@ -30563,7 +30563,7 @@ var names=
   [
     "audio-frequency-generator",
     "Audio Frequency Generator",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "segmental",
@@ -30763,7 +30763,7 @@ var names=
   [
     "terror",
     "Terror",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "saga-of-erik-the-viking-the",
@@ -30778,12 +30778,12 @@ var names=
   [
     "copy-it",
     "Copy It",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "manic-miner-2000",
     "Manic Miner - 2000",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2000"
+    "Unknown publisher, 2000"
   ],
   [
     "burladero",
@@ -30883,7 +30883,7 @@ var names=
   [
     "hangman",
     "Hangman",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "autosave-para-phoenix",
@@ -30893,12 +30893,12 @@ var names=
   [
     "on-error-goto",
     "On Error Goto",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "oscylograf",
     "Oscylograf",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dead-end",
@@ -31108,7 +31108,7 @@ var names=
   [
     "tombola-2",
     "Tombola",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "dominoes-2",
@@ -31233,7 +31233,7 @@ var names=
   [
     "weltuhr",
     "Weltuhr",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "minesweeper-6",
@@ -31353,7 +31353,7 @@ var names=
   [
     "cartas-21",
     "Cartas 21",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "grafpad",
@@ -31368,7 +31368,7 @@ var names=
   [
     "disassembler",
     "Disassembler",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "big-baps",
@@ -31698,7 +31698,7 @@ var names=
   [
     "play-your-cards-right",
     "Play Your Cards Right",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "magicland-dizzy",
@@ -31723,7 +31723,7 @@ var names=
   [
     "catwalk",
     "Catwalk",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "cannon-bubble",
@@ -32193,7 +32193,7 @@ var names=
   [
     "spectrum-interrupts",
     "Spectrum Interrupts",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "thunderbirds",
@@ -32223,12 +32223,12 @@ var names=
   [
     "invincible-island-hints",
     "Invincible Island hints",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "duplicator",
     "Duplicator",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "learner-driver",
@@ -32248,7 +32248,7 @@ var names=
   [
     "mago-el",
     "Mago, El",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "perils-of-bear-george",
@@ -32293,7 +32293,7 @@ var names=
   [
     "tunnel-raider",
     "Tunnel Raider",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "poker-dice-3",
@@ -32443,7 +32443,7 @@ var names=
   [
     "funcoes",
     "Funcoes",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spleisern",
@@ -32708,7 +32708,7 @@ var names=
   [
     "softland-2",
     "Softland 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "r-b-i-2-baseball",
@@ -32843,7 +32843,7 @@ var names=
   [
     "see-saw",
     "See-Saw",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1982"
+    "Unknown publisher, 1982"
   ],
   [
     "christmas-address-list",
@@ -32908,7 +32908,7 @@ var names=
   [
     "spectroscoop-iv",
     "Spectroscoop IV",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "plazos",
@@ -33433,7 +33433,7 @@ var names=
   [
     "kart",
     "Kart",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rey-del-after-sun-el",
@@ -33523,7 +33523,7 @@ var names=
   [
     "jatek",
     "Jatek",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "flow-chart-2",
@@ -33608,7 +33608,7 @@ var names=
   [
     "spectrum-substrike",
     "Spectrum Substrike",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "road-racer",
@@ -33623,7 +33623,7 @@ var names=
   [
     "infection",
     "Infection",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "light-magic",
@@ -33853,7 +33853,7 @@ var names=
   [
     "micro-sound-128k-part-ii",
     "Micro Sound 128K Part II",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "gotcha",
@@ -34043,7 +34043,7 @@ var names=
   [
     "juego-mercantil-nuevo-mundo",
     "Juego Mercantil Nuevo Mundo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "krazy-kong-3",
@@ -34123,7 +34123,7 @@ var names=
   [
     "prodos-basic",
     "ProDOS Basic",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "route-48",
@@ -34143,7 +34143,7 @@ var names=
   [
     "cavalos",
     "Cavalos",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "turbo-copy-3",
@@ -34483,7 +34483,7 @@ var names=
   [
     "pink-pills-manic-moritz-and-the-meds",
     "Pink Pills - Manic Moritz and the Meds",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "mertenok",
@@ -34543,7 +34543,7 @@ var names=
   [
     "goa-4k",
     "Goa 4K",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "stalker-3",
@@ -34643,7 +34643,7 @@ var names=
   [
     "kreds-alys",
     "Kreds Alys",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "luna-rover",
@@ -34693,7 +34693,7 @@ var names=
   [
     "sonido-alfa",
     "Sonido Alfa",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "unidisc",
@@ -34708,7 +34708,7 @@ var names=
   [
     "capital",
     "Capital",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "snake-9",
@@ -34908,7 +34908,7 @@ var names=
   [
     "elite-help-file",
     "Elite Help File",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "knights-quest-the",
@@ -34953,7 +34953,7 @@ var names=
   [
     "chicago",
     "Chicago",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "jesters-jaunt",
@@ -35253,7 +35253,7 @@ var names=
   [
     "best-hits-of-m-z-musics-the",
     "Best Hits of M&amp;Z Musics, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "rebel",
@@ -35313,7 +35313,7 @@ var names=
   [
     "briscola",
     "Briscola",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "crazy-chef",
@@ -35528,7 +35528,7 @@ var names=
   [
     "genblast",
     "GenBlast",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "con-quest",
@@ -35543,7 +35543,7 @@ var names=
   [
     "g-o-d",
     "G.o.d",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "siege-2",
@@ -35753,7 +35753,7 @@ var names=
   [
     "island",
     "Island",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "leader-board-tournament",
@@ -35808,7 +35808,7 @@ var names=
   [
     "diagram",
     "Diagram",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "golden-pyramid-the",
@@ -35888,7 +35888,7 @@ var names=
   [
     "software-crimes-of-bill-gilbert-the",
     "Software Crimes of Bill Gilbert, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "joe-blade-ii",
@@ -36003,7 +36003,7 @@ var names=
   [
     "lost-in-wales",
     "Lost in Wales",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "maxim",
@@ -36058,7 +36058,7 @@ var names=
   [
     "sprites",
     "Sprites",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "toggler",
@@ -36098,7 +36098,7 @@ var names=
   [
     "bergwacht",
     "Bergwacht",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "scrumper",
@@ -36158,7 +36158,7 @@ var names=
   [
     "brainwaves",
     "Brainwaves",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "infilaquattro",
@@ -36388,7 +36388,7 @@ var names=
   [
     "piano",
     "Piano",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spectrum-electronics-cct",
@@ -36523,7 +36523,7 @@ var names=
   [
     "escape-from-malagar",
     "Escape from Malagar",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "snake-11",
@@ -36578,7 +36578,7 @@ var names=
   [
     "manager-1",
     "Manager [1]",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "timewise",
@@ -36723,7 +36723,7 @@ var names=
   [
     "jux",
     "Jux",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "stripies",
@@ -36803,7 +36803,7 @@ var names=
   [
     "alkatraz-development-cartridges",
     "Alkatraz Development Cartridges",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "corona-magica-la",
@@ -36938,12 +36938,12 @@ var names=
   [
     "variables-founder",
     "Variables Founder",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "superkey",
     "Superkey",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "t1-secret-document",
@@ -36973,7 +36973,7 @@ var names=
   [
     "micronet",
     "Micronet",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "disco-mk1",
@@ -37308,7 +37308,7 @@ var names=
   [
     "great-buns",
     "Great Buns",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "oblivion",
@@ -37338,7 +37338,7 @@ var names=
   [
     "matematika",
     "Matematika",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "chuckie-egg-2",
@@ -37368,7 +37368,7 @@ var names=
   [
     "morsezeichnengenerator",
     "Morsezeichnengenerator",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "venturespeak",
@@ -37498,7 +37498,7 @@ var names=
   [
     "lover",
     "Lover",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "fishclip",
@@ -37523,7 +37523,7 @@ var names=
   [
     "expander",
     "Expander",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "munch-man-2",
@@ -37963,7 +37963,7 @@ var names=
   [
     "presidente",
     "Presidente",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "data-base-2",
@@ -38098,7 +38098,7 @@ var names=
   [
     "log-cabin-dizzy-zx-spectrum",
     "Log Cabin Dizzy (ZX Spectrum)",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "luna-park",
@@ -38388,7 +38388,7 @@ var names=
   [
     "sector-3d",
     "Sector, 3D",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "heavy-metal",
@@ -38398,7 +38398,7 @@ var names=
   [
     "enterprise",
     "Enterprise",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tesoro",
@@ -38568,7 +38568,7 @@ var names=
   [
     "funky",
     "Funky",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "crazy-balloons",
@@ -38598,7 +38598,7 @@ var names=
   [
     "anagrams",
     "Anagrams",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "nim-7",
@@ -38618,7 +38618,7 @@ var names=
   [
     "pro-loader",
     "Pro Loader",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "greyscale",
@@ -39273,7 +39273,7 @@ var names=
   [
     "festung",
     "Festung",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "pub-games",
@@ -39313,7 +39313,7 @@ var names=
   [
     "ugly-blaster",
     "Ugly Blaster",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "sabotaje",
@@ -39658,7 +39658,7 @@ var names=
   [
     "scroll",
     "Scroll",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rainy-day",
@@ -39683,7 +39683,7 @@ var names=
   [
     "cartridge-header",
     "Cartridge Header",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sopa-de-letras-2",
@@ -39723,7 +39723,7 @@ var names=
   [
     "sound-tracker-demo",
     "Sound Tracker Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "defence-control",
@@ -39753,7 +39753,7 @@ var names=
   [
     "speech-synthesizer",
     "Speech Synthesizer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "missile-defence-4",
@@ -39793,12 +39793,12 @@ var names=
   [
     "super-save",
     "Super Save",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "demon-2",
     "Demon",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tree-spotter",
@@ -39808,7 +39808,7 @@ var names=
   [
     "mc-trace",
     "MC Trace",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "nemos-island",
@@ -39818,7 +39818,7 @@ var names=
   [
     "organize",
     "ORGANize",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "monty-mole-and-the-temple-of-lost-souls",
@@ -39933,7 +39933,7 @@ var names=
   [
     "ad-lister",
     "AD lister",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "fichero-2",
@@ -40753,7 +40753,7 @@ var names=
   [
     "algebra-9",
     "Algebra 9",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "zx-cesil",
@@ -40853,7 +40853,7 @@ var names=
   [
     "memotest",
     "Memotest",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "new-zealand-story-the",
@@ -40903,7 +40903,7 @@ var names=
   [
     "kafer-anton",
     "Kafer Anton",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "remember-this",
@@ -40993,7 +40993,7 @@ var names=
   [
     "diagram-1",
     "Diagram 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "power-magic",
@@ -41008,12 +41008,12 @@ var names=
   [
     "final-countdown-the",
     "Final Countdown, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "arcanoid",
     "Arcanoid",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "flintstones-the-2",
@@ -41168,7 +41168,7 @@ var names=
   [
     "russian-durak",
     "Russian Durak",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "lector-c",
@@ -41278,7 +41278,7 @@ var names=
   [
     "basic-stuff",
     "BASIC Stuff",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "pontoon-2",
@@ -41488,7 +41488,7 @@ var names=
   [
     "prinsessen-i-berget-det-blaa",
     "Prinsessen i Berget det Blaa",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "macmans-magic-mirror",
@@ -41828,7 +41828,7 @@ var names=
   [
     "3k-music",
     "3K Music",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "planet-seek",
@@ -41958,7 +41958,7 @@ var names=
   [
     "vokabeln-lernen",
     "Vokabeln Lernen",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "realm-of-darkness",
@@ -42073,7 +42073,7 @@ var names=
   [
     "stranger-2",
     "Stranger 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "dhb",
@@ -42168,7 +42168,7 @@ var names=
   [
     "idle-space-2",
     "Idle Space 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "oldman",
@@ -42263,7 +42263,7 @@ var names=
   [
     "sound-to-graphiks",
     "Sound to Graphiks",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "snoball-in-hell",
@@ -42283,7 +42283,7 @@ var names=
   [
     "tunnel-4k",
     "Tunnel 4K",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "stanley-and-the-wallbangers",
@@ -42293,7 +42293,7 @@ var names=
   [
     "carl-youngs-adventure",
     "Carl Young's Adventure",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "multifacet",
@@ -42423,12 +42423,12 @@ var names=
   [
     "schaltplanzeichner",
     "Schaltplanzeichner",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "drvar",
     "Drvar",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "amx-art",
@@ -42508,7 +42508,7 @@ var names=
   [
     "balls-demo-part-one",
     "Balls Demo Part One",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "remkill",
@@ -42663,7 +42663,7 @@ var names=
   [
     "meteorsko-polje",
     "Meteorsko Polje",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "fuller-box-orator-demonstration",
@@ -42808,7 +42808,7 @@ var names=
   [
     "hudson-hawk-secret-demo",
     "Hudson Hawk Secret Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "andres-night-off",
@@ -42953,7 +42953,7 @@ var names=
   [
     "emergency",
     "Emergency",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "gallows",
@@ -43458,7 +43458,7 @@ var names=
   [
     "good-luck",
     "Good Luck!",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "conversions-2",
@@ -43473,7 +43473,7 @@ var names=
   [
     "popie",
     "Popie",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "samegame",
@@ -43523,7 +43523,7 @@ var names=
   [
     "greg-the-egg",
     "Greg the Egg",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "marwins-gallery",
@@ -43558,7 +43558,7 @@ var names=
   [
     "fransk",
     "Fransk",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "animaniacs",
@@ -43703,7 +43703,7 @@ var names=
   [
     "kalendar",
     "Kalendar",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "deflator",
@@ -44203,7 +44203,7 @@ var names=
   [
     "noname",
     "Noname",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "talisman-5",
@@ -44553,7 +44553,7 @@ var names=
   [
     "copier-fm3",
     "Copier FM3",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "decor-wreckers",
@@ -44863,7 +44863,7 @@ var names=
   [
     "morseova-abeceda",
     "Morseova Abeceda",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "quark-2",
@@ -45013,7 +45013,7 @@ var names=
   [
     "copy-w",
     "Copy W",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "galaxy-hitch-hike",
@@ -45143,7 +45143,7 @@ var names=
   [
     "o-mundo-perdido",
     "O Mundo Perdido",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "professional-snooker-simulator",
@@ -45253,7 +45253,7 @@ var names=
   [
     "colourthello-02",
     "Colourthello 02",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "austerlitz",
@@ -45283,7 +45283,7 @@ var names=
   [
     "little-pac",
     "Little Pac",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ring-quest",
@@ -45348,7 +45348,7 @@ var names=
   [
     "tetris-copy",
     "Tetris Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "chomper-2",
@@ -45433,7 +45433,7 @@ var names=
   [
     "space-invaders-2",
     "Space Invaders 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "compactor",
@@ -45513,7 +45513,7 @@ var names=
   [
     "dama",
     "Dama",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2005"
+    "Unknown publisher, 2005"
   ],
   [
     "statuetta-maya-la",
@@ -45583,7 +45583,7 @@ var names=
   [
     "prison-camp",
     "Prison Camp",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sokoban-3",
@@ -45973,7 +45973,7 @@ var names=
   [
     "resound-1",
     "Resound 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "di-vision",
@@ -46038,7 +46038,7 @@ var names=
   [
     "proracun-aktivnih-filtera",
     "Proracun Aktivnih Filtera",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "i-need-speed",
@@ -46153,7 +46153,7 @@ var names=
   [
     "action",
     "Action",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "armageddon-man-the",
@@ -46308,7 +46308,7 @@ var names=
   [
     "operaciones-matematicas",
     "Operaciones Matematicas",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "computer",
@@ -46358,7 +46358,7 @@ var names=
   [
     "f-n-balls",
     "F'n Balls",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2019"
+    "Unknown publisher, 2019"
   ],
   [
     "tape-catloader",
@@ -46588,7 +46588,7 @@ var names=
   [
     "dungeon-the",
     "Dungeon, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "numery-szczescia",
@@ -46923,7 +46923,7 @@ var names=
   [
     "regresja",
     "Regresja",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "font-1",
@@ -47018,7 +47018,7 @@ var names=
   [
     "buggy",
     "Buggy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "beyond-el-dorado",
@@ -47328,7 +47328,7 @@ var names=
   [
     "poker-club-the",
     "Poker Club, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "chefs-mate-2",
@@ -47458,7 +47458,7 @@ var names=
   [
     "entropy",
     "Entropy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "intensity",
@@ -47478,7 +47478,7 @@ var names=
   [
     "mirage-2-2",
     "Mirage 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "capital-letters",
@@ -47608,7 +47608,7 @@ var names=
   [
     "kosci-rzucone",
     "Kosci Rzucone",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dingo-2",
@@ -47713,7 +47713,7 @@ var names=
   [
     "final-whistle",
     "Final Whistle",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "orc-attack",
@@ -47828,7 +47828,7 @@ var names=
   [
     "softland-1",
     "Softland 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "word-life",
@@ -47873,7 +47873,7 @@ var names=
   [
     "house-of-horrors",
     "House of Horrors",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "duel-cabbageway",
@@ -47928,7 +47928,7 @@ var names=
   [
     "hellfall",
     "Hellfall",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "iron-i",
@@ -48373,7 +48373,7 @@ var names=
   [
     "programmable-tape-disk-copier",
     "Programmable Tape/Disk Copier",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "escape-from-colditz-2",
@@ -48493,7 +48493,7 @@ var names=
   [
     "kft-rozsak-valerianak",
     "KFT: Rozsak Valerianak",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "atoms-4",
@@ -48568,7 +48568,7 @@ var names=
   [
     "stranger-1",
     "Stranger 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "mini-office",
@@ -48808,7 +48808,7 @@ var names=
   [
     "torens-van-hanoi",
     "Torens van Hanoi",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "wiwo-dido-the-case-of-the-lost-keys",
@@ -48828,7 +48828,7 @@ var names=
   [
     "abington",
     "Abington",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "por-la-cara",
@@ -48963,7 +48963,7 @@ var names=
   [
     "hi-lo",
     "Hi-Lo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "metropolis-1",
@@ -49048,7 +49048,7 @@ var names=
   [
     "heli-land",
     "Heli-Land",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "movie-3d",
@@ -49203,7 +49203,7 @@ var names=
   [
     "idle-space-1",
     "Idle Space 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "motor-force",
@@ -49223,7 +49223,7 @@ var names=
   [
     "pak-men-2",
     "Pak-Men 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "logical-game",
@@ -49418,7 +49418,7 @@ var names=
   [
     "sinclair-zx-spectrum-test-rom",
     "Sinclair ZX Spectrum Test ROM",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "fun-trig",
@@ -49748,7 +49748,7 @@ var names=
   [
     "udg-print",
     "UDG Print",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "from-out-of-a-dark-night-sky",
@@ -49968,7 +49968,7 @@ var names=
   [
     "vibe-mm2",
     "Vibe MM2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "kuiper-pursuit",
@@ -50008,7 +50008,7 @@ var names=
   [
     "robin-2",
     "Robin-2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "satochin",
@@ -50133,7 +50133,7 @@ var names=
   [
     "inf1",
     "Inf1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "knight-ghost",
@@ -50238,7 +50238,7 @@ var names=
   [
     "another-saper",
     "Another Saper",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2022"
+    "Unknown publisher, 2022"
   ],
   [
     "prayer-of-the-warrior-the",
@@ -50263,12 +50263,12 @@ var names=
   [
     "oxygen-alert",
     "Oxygen Alert",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "wurmi",
     "Wurmi",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "adventure-h-robin-hood",
@@ -50498,7 +50498,7 @@ var names=
   [
     "burglar",
     "Burglar",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1999"
+    "Unknown publisher, 1999"
   ],
   [
     "dungeon-dare",
@@ -50658,7 +50658,7 @@ var names=
   [
     "mapper",
     "Mapper",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "battle-for-midway",
@@ -50728,7 +50728,7 @@ var names=
   [
     "head-reader",
     "Head Reader",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "resolucion-de-triangulos",
@@ -51133,12 +51133,12 @@ var names=
   [
     "morse-trainer",
     "Morse Trainer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ramdos",
     "RamDOS",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "mr-heli",
@@ -51253,7 +51253,7 @@ var names=
   [
     "ankh-morpork",
     "Ankh-Morpork",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "function-key-mode",
@@ -51383,7 +51383,7 @@ var names=
   [
     "jewel-of-scotland",
     "Jewel of Scotland",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cricket-player-data-cassette-1960s",
@@ -51438,7 +51438,7 @@ var names=
   [
     "robots-rumble",
     "Robots Rumble",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "bfx-1",
@@ -51533,7 +51533,7 @@ var names=
   [
     "lider",
     "Lider",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "deep-strike",
@@ -51603,7 +51603,7 @@ var names=
   [
     "planet-fighter",
     "Planet Fighter",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "android-one",
@@ -51748,7 +51748,7 @@ var names=
   [
     "slalom",
     "Slalom",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "brian-the-bold",
@@ -51883,7 +51883,7 @@ var names=
   [
     "miracle",
     "Miracle",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "livingstone-supongo-ii",
@@ -51903,7 +51903,7 @@ var names=
   [
     "osvajanje-zvezda",
     "Osvajanje Zvezda",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "chess-player-the",
@@ -52788,7 +52788,7 @@ var names=
   [
     "kongedomme",
     "Kongedomme",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "computer-rulette",
@@ -52833,7 +52833,7 @@ var names=
   [
     "border-efekti",
     "Border Efekti",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "penguin-2",
@@ -53133,7 +53133,7 @@ var names=
   [
     "gyroscope-ii",
     "Gyroscope II",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "spacex",
@@ -53403,7 +53403,7 @@ var names=
   [
     "dados",
     "Dados",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "software-house",
@@ -53593,7 +53593,7 @@ var names=
   [
     "ant-ko",
     "Ant KO",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "milliman",
@@ -53873,7 +53873,7 @@ var names=
   [
     "tdl",
     "TDL",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "flappety-flap",
@@ -54178,7 +54178,7 @@ var names=
   [
     "real-action",
     "Real Action",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "super-sam",
@@ -54193,7 +54193,7 @@ var names=
   [
     "eskimo-capers",
     "Eskimo Capers",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "gugu",
@@ -54293,7 +54293,7 @@ var names=
   [
     "text-conversion-program",
     "Text Conversion Program",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "lerm-tape-utility-8",
@@ -54443,7 +54443,7 @@ var names=
   [
     "bug-eyes",
     "Bug Eyes",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "kamikaze-buggie",
@@ -54563,7 +54563,7 @@ var names=
   [
     "carta-64",
     "Carta-64",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "strider-ii",
@@ -54578,7 +54578,7 @@ var names=
   [
     "swordsman-of-kraxis-7-the",
     "Swordsman of Kraxis 7, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "super-file",
@@ -54598,7 +54598,7 @@ var names=
   [
     "arithmetic-tutor",
     "Arithmetic Tutor",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "stop",
@@ -54773,7 +54773,7 @@ var names=
   [
     "fun-f-x-y",
     "Fun F(x,y)",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "nessie",
@@ -55038,7 +55038,7 @@ var names=
   [
     "ritm-4",
     "RITM 4",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "space-trek",
@@ -55148,12 +55148,12 @@ var names=
   [
     "dizzy-music",
     "Dizzy Music",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "shuffler",
     "Shuffler",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "fizzy-wizzy",
@@ -55223,7 +55223,7 @@ var names=
   [
     "graphics-2-2",
     "Graphics 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "damero",
@@ -55323,7 +55323,7 @@ var names=
   [
     "new-poke-magazin-6",
     "New POKE Magazin 6",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "luxik-na-bibrstejne",
@@ -55388,7 +55388,7 @@ var names=
   [
     "hook-worms",
     "Hook Worms",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "exocet",
@@ -55523,7 +55523,7 @@ var names=
   [
     "monitor",
     "Monitor",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "proreg-ii",
@@ -55813,7 +55813,7 @@ var names=
   [
     "overload",
     "Overload",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "electric-reindeer-maniacs",
@@ -55878,7 +55878,7 @@ var names=
   [
     "dirty-tricks-demo",
     "Dirty Tricks Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "exploding-fist",
@@ -56153,7 +56153,7 @@ var names=
   [
     "little-ghost",
     "Little Ghost",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "ramon-rodriguez",
@@ -56248,7 +56248,7 @@ var names=
   [
     "mega-sound-iii",
     "Mega Sound III",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "atomic",
@@ -56303,7 +56303,7 @@ var names=
   [
     "synthensyser",
     "Synthensyser",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "star-madness",
@@ -56488,7 +56488,7 @@ var names=
   [
     "test-program-for-master",
     "Test Program for Master",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ooze",
@@ -56683,7 +56683,7 @@ var names=
   [
     "borec",
     "Borec",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "quiniela-hipica",
@@ -56758,7 +56758,7 @@ var names=
   [
     "speccopy",
     "Speccopy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "artillero",
@@ -57403,7 +57403,7 @@ var names=
   [
     "cursorspel",
     "Cursorspel",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "charlie-and-the-chocolate-factory",
@@ -57558,7 +57558,7 @@ var names=
   [
     "observationsprogram",
     "Observationsprogram",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mega-bert",
@@ -57648,7 +57648,7 @@ var names=
   [
     "master-copy",
     "Master-Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "viper-iii",
@@ -57748,7 +57748,7 @@ var names=
   [
     "schrift",
     "Schrift",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "colin-the-cleaner",
@@ -57808,7 +57808,7 @@ var names=
   [
     "hires-tool",
     "Hires-Tool",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "world-champions",
@@ -57893,7 +57893,7 @@ var names=
   [
     "eight-cards-patience",
     "Eight Cards Patience",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "vulcan",
@@ -57983,7 +57983,7 @@ var names=
   [
     "abcd-copy",
     "ABCD Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "witchs-spell",
@@ -58183,7 +58183,7 @@ var names=
   [
     "off-topic",
     "Off Topic",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "harry-hedgehog-1k",
@@ -58233,7 +58233,7 @@ var names=
   [
     "novagen",
     "Novagen",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "glasgow-murder-a",
@@ -58323,17 +58323,17 @@ var names=
   [
     "survivors",
     "Survivors",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "choki",
     "Choki",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "out-copy",
     "Out Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "boira",
@@ -58873,7 +58873,7 @@ var names=
   [
     "micro-sound-128k-part-i",
     "Micro Sound 128K Part I",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "stevie-dotman",
@@ -58948,7 +58948,7 @@ var names=
   [
     "ufo-3",
     "Ufo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "hideous-the",
@@ -58978,7 +58978,7 @@ var names=
   [
     "minotaur",
     "Minotaur",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "master-chess",
@@ -58993,7 +58993,7 @@ var names=
   [
     "hebrew-wp",
     "Hebrew WP",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "tristar",
@@ -59313,7 +59313,7 @@ var names=
   [
     "coverprinter",
     "Coverprinter",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "heaven-1",
@@ -59368,7 +59368,7 @@ var names=
   [
     "klingsor-the-evil-magician",
     "Klingsor the Evil Magician",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "tripods-the",
@@ -59398,7 +59398,7 @@ var names=
   [
     "ball-the-2",
     "Ball, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "estrellas-y-constelaciones",
@@ -59468,7 +59468,7 @@ var names=
   [
     "dice",
     "Dice",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "robot-scape",
@@ -59733,7 +59733,7 @@ var names=
   [
     "mix-msx",
     "Mix-MSX",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "graffall",
@@ -59973,7 +59973,7 @@ var names=
   [
     "sprl-tower",
     "Sprl (???) Tower",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "life-of-crime-a",
@@ -59993,7 +59993,7 @@ var names=
   [
     "poslednee-zaveshhanie-dizzi",
     "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0437\u0430\u0432\u0435\u0449\u0430\u043d\u0438\u0435 \u0414\u0438\u0437\u0437\u0438",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "hddoctor",
@@ -60298,7 +60298,7 @@ var names=
   [
     "devils-sceptre",
     "Devils Sceptre",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "powercross",
@@ -60333,7 +60333,7 @@ var names=
   [
     "sabo",
     "Sabo (???)",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "escape-from-the-underworld",
@@ -60428,7 +60428,7 @@ var names=
   [
     "golf",
     "Golf",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "poker-10",
@@ -60673,7 +60673,7 @@ var names=
   [
     "jongleur",
     "Jongleur",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "boggit-the",
@@ -60848,7 +60848,7 @@ var names=
   [
     "pongo",
     "Pongo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mansion-the",
@@ -60908,7 +60908,7 @@ var names=
   [
     "sprite-editor-introduction",
     "Sprite Editor Introduction",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "kidnap",
@@ -61003,7 +61003,7 @@ var names=
   [
     "test-the",
     "Test, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "whole-new-ball-game-a",
@@ -61128,7 +61128,7 @@ var names=
   [
     "spectrum-skat",
     "Spectrum-Skat",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "desktopfonteditorfzx",
@@ -61278,7 +61278,7 @@ var names=
   [
     "crack-music-demo",
     "Crack Music Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "kluxer",
@@ -61288,7 +61288,7 @@ var names=
   [
     "first-demo-for-ay-interface",
     "First Demo for AY Interface",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1994"
+    "Unknown publisher, 1994"
   ],
   [
     "profile-1",
@@ -61653,7 +61653,7 @@ var names=
   [
     "super-sound-128k-i",
     "Super Sound 128K I",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "zx7",
@@ -61808,7 +61808,7 @@ var names=
   [
     "heroes-of-might-and-magic",
     "Heroes of Might and Magic",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "journeys-end",
@@ -61913,12 +61913,12 @@ var names=
   [
     "adressenkartei",
     "Adressenkartei",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "composer",
     "Composer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "black-lamp",
@@ -61978,7 +61978,7 @@ var names=
   [
     "earthbound",
     "Earthbound",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "willy-on-a-transatlantic-cruise",
@@ -62083,7 +62083,7 @@ var names=
   [
     "digital-arts-fantasy",
     "Digital Arts Fantasy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "pro-sound-creator",
@@ -62348,7 +62348,7 @@ var names=
   [
     "hot-rodder",
     "Hot Rodder",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "curro-jimenez",
@@ -62693,7 +62693,7 @@ var names=
   [
     "worm-world",
     "Worm World",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "destroyer-2",
@@ -62713,7 +62713,7 @@ var names=
   [
     "last-will-dizzy",
     "Last Will Dizzy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dragonball-el-desafio-del-doctor-gero",
@@ -62988,7 +62988,7 @@ var names=
   [
     "tren-8",
     "Tren 8",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "investigations",
@@ -63048,7 +63048,7 @@ var names=
   [
     "triton-mix",
     "Triton Mix",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1995"
+    "Unknown publisher, 1995"
   ],
   [
     "super-sabre",
@@ -63543,7 +63543,7 @@ var names=
   [
     "bart-simpson-demo",
     "Bart Simpson Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "monsters-in-hell",
@@ -63738,7 +63738,7 @@ var names=
   [
     "aventura-basic",
     "Aventura BASIC",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "pharaohs-gems-the",
@@ -63868,7 +63868,7 @@ var names=
   [
     "nimm",
     "Nimm",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "opener-1",
@@ -63908,7 +63908,7 @@ var names=
   [
     "plata",
     "Plata",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "formula-2",
@@ -63958,7 +63958,7 @@ var names=
   [
     "weights",
     "Weights",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "great-hedgehog-massacre-the",
@@ -64033,7 +64033,7 @@ var names=
   [
     "softwareliste",
     "Softwareliste",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "pesos",
@@ -64583,7 +64583,7 @@ var names=
   [
     "ritty-9",
     "RITTY-9",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "intro-maker",
@@ -64658,7 +64658,7 @@ var names=
   [
     "spielautomaten",
     "Spielautomaten",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rjs-ultimatum",
@@ -64683,7 +64683,7 @@ var names=
   [
     "morse-coder",
     "Morse Coder",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "castle-quest-2",
@@ -64728,7 +64728,7 @@ var names=
   [
     "techno",
     "Techno",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "gift-for-alex",
@@ -65008,7 +65008,7 @@ var names=
   [
     "duggy",
     "Duggy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "compass",
@@ -65223,7 +65223,7 @@ var names=
   [
     "selectieve-listing",
     "Selectieve Listing",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "lissajous-2",
@@ -65578,7 +65578,7 @@ var names=
   [
     "adivina",
     "Adivina",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "frogger-5",
@@ -65673,7 +65673,7 @@ var names=
   [
     "mega-sound-i",
     "Mega Sound I",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "gamex",
@@ -65753,7 +65753,7 @@ var names=
   [
     "eprom-programmer",
     "EPROM Programmer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "trouble",
@@ -65798,7 +65798,7 @@ var names=
   [
     "kleuren-kubus",
     "Kleuren Kubus",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "crazy-castles",
@@ -65863,12 +65863,12 @@ var names=
   [
     "division",
     "Division",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "line-plot",
     "Line Plot",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dizzy-prince-of-the-yolkfolk",
@@ -66158,7 +66158,7 @@ var names=
   [
     "made-in-kazan",
     "Made in Kazan",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "hanoi-king",
@@ -66223,7 +66223,7 @@ var names=
   [
     "bombnik",
     "Bombnik",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cuatro-en-raya-las-2",
@@ -66353,12 +66353,12 @@ var names=
   [
     "target-practice",
     "Target Practice",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "ram-test",
     "RAM Test",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "silverman-the-sailor",
@@ -66378,12 +66378,12 @@ var names=
   [
     "multi-prog",
     "Multi Prog",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "enigma-variations",
     "Enigma Variations",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "super-car-trans-am",
@@ -66433,7 +66433,7 @@ var names=
   [
     "super-star-trek",
     "Super Star Trek",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spectre-of-booballyhoo-the",
@@ -66668,7 +66668,7 @@ var names=
   [
     "little-demo",
     "Little Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "meltdown-2",
@@ -66923,7 +66923,7 @@ var names=
   [
     "extra-life-finder",
     "Extra Life Finder",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "hard-drivin",
@@ -67123,7 +67123,7 @@ var names=
   [
     "turbo-compress-copy",
     "Turbo Compress Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "slaughter-caves-the",
@@ -67393,7 +67393,7 @@ var names=
   [
     "ritm-2",
     "RITM 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "5th-music-demo",
@@ -67903,7 +67903,7 @@ var names=
   [
     "out-demo",
     "Out Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "ardonicus-3",
@@ -68383,12 +68383,12 @@ var names=
   [
     "test-inteligencji",
     "Test Inteligencji",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "manhattan",
     "Manhattan",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "super-trolley",
@@ -68468,7 +68468,7 @@ var names=
   [
     "head-clean",
     "Head Clean",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "wild-player",
@@ -68528,7 +68528,7 @@ var names=
   [
     "quackers",
     "Quackers",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "labirynth-3",
@@ -68593,7 +68593,7 @@ var names=
   [
     "eye-of-the-beholder",
     "Eye of the Beholder",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "speakwell",
@@ -68948,7 +68948,7 @@ var names=
   [
     "word-pro",
     "Word Pro",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "peter-novak",
@@ -69093,7 +69093,7 @@ var names=
   [
     "comipini",
     "Comipini",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "toilet-truble",
@@ -69383,7 +69383,7 @@ var names=
   [
     "finder-2",
     "Finder",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "open-the",
@@ -69548,7 +69548,7 @@ var names=
   [
     "mitrums",
     "Mitrums",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "help",
@@ -69583,7 +69583,7 @@ var names=
   [
     "grafik",
     "Grafik",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "pi",
@@ -69768,7 +69768,7 @@ var names=
   [
     "super-sound-128k-part-ii",
     "Super Sound 128K Part II",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "grimalkin-128k",
@@ -70213,7 +70213,7 @@ var names=
   [
     "galgje",
     "Galgje",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cargador-universal-de-codigo-maquina-c-u-c-m",
@@ -70358,7 +70358,7 @@ var names=
   [
     "exclamation",
     "Exclamation",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "super-digger",
@@ -70448,7 +70448,7 @@ var names=
   [
     "text-5-korrespondez",
     "Text 5 Korrespondez",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rocas-bingo",
@@ -70578,7 +70578,7 @@ var names=
   [
     "super-draw",
     "Super Draw",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "animated-screen-maker",
@@ -70738,7 +70738,7 @@ var names=
   [
     "bitwa-o-wyspe-ii",
     "Bitwa o Wyspe II",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "para-academy",
@@ -70778,7 +70778,7 @@ var names=
   [
     "skyway",
     "Skyway",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "minotaur-2",
@@ -70788,7 +70788,7 @@ var names=
   [
     "their",
     "Their",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1998"
+    "Unknown publisher, 1998"
   ],
   [
     "alterna",
@@ -70868,7 +70868,7 @@ var names=
   [
     "notepad",
     "Notepad",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2004"
+    "Unknown publisher, 2004"
   ],
   [
     "gatecrasher",
@@ -70878,7 +70878,7 @@ var names=
   [
     "peperami",
     "Peperami",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "star-flaws",
@@ -71028,7 +71028,7 @@ var names=
   [
     "laser-attack",
     "Laser Attack",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "discview",
@@ -71063,7 +71063,7 @@ var names=
   [
     "blue-sky-discoteca",
     "Blue Sky Discoteca",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "icicle-works",
@@ -71183,7 +71183,7 @@ var names=
   [
     "retroforce",
     "RetroForce",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "sdm-4k",
@@ -71288,7 +71288,7 @@ var names=
   [
     "pac-man",
     "Pac-Man",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "editor-de-pantallas-2",
@@ -71628,7 +71628,7 @@ var names=
   [
     "pascal-compiler",
     "Pascal Compiler",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "boovie",
@@ -71693,7 +71693,7 @@ var names=
   [
     "spectrofon",
     "Spectrofon",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "traskskatten",
@@ -71923,7 +71923,7 @@ var names=
   [
     "acid",
     "Acid",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "rio-blanco",
@@ -72068,7 +72068,7 @@ var names=
   [
     "verdugo",
     "Verdugo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "delta-charge",
@@ -72078,7 +72078,7 @@ var names=
   [
     "share-bizz",
     "Share Bizz",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "simulacion-de-orbitas-planetarias",
@@ -72183,7 +72183,7 @@ var names=
   [
     "proracun-transformatora",
     "Proracun Transformatora",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "spread-twelve",
@@ -72498,7 +72498,7 @@ var names=
   [
     "tronn-2-2",
     "Tronn 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "podroz-po-polsce",
@@ -72543,7 +72543,7 @@ var names=
   [
     "das-broot",
     "Das Broot",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1994"
+    "Unknown publisher, 1994"
   ],
   [
     "fruit-2",
@@ -72678,7 +72678,7 @@ var names=
   [
     "willys-new-hat",
     "Willy's New Hat",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "take",
@@ -72773,7 +72773,7 @@ var names=
   [
     "joy-graph",
     "Joy Graph",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "kung-fu-knights",
@@ -73133,7 +73133,7 @@ var names=
   [
     "maze",
     "Maze",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "eslalon",
@@ -73218,7 +73218,7 @@ var names=
   [
     "moon-patrol",
     "Moon Patrol",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "capitan-eagle-nel-tempio-sconosciuto",
@@ -73248,7 +73248,7 @@ var names=
   [
     "micro-sound-128k-part-iii",
     "Micro Sound 128K Part III",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1989"
+    "Unknown publisher, 1989"
   ],
   [
     "mw-demo",
@@ -73288,7 +73288,7 @@ var names=
   [
     "alien-chase",
     "Alien Chase",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "garrafas",
@@ -73548,7 +73548,7 @@ var names=
   [
     "synthetizer",
     "Synthetizer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "chunky",
@@ -73708,7 +73708,7 @@ var names=
   [
     "das-boersenspiel",
     "Das Boersenspiel",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "five-treasures-of-ryzar-the",
@@ -73858,7 +73858,7 @@ var names=
   [
     "star-heaven",
     "Star Heaven",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1990"
+    "Unknown publisher, 1990"
   ],
   [
     "triblox",
@@ -74013,7 +74013,7 @@ var names=
   [
     "mampfmann",
     "Mampfmann",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "dallas",
@@ -74023,7 +74023,7 @@ var names=
   [
     "printer",
     "Printer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "chaos-constructions-2010-beeper-music-compilation",
@@ -74133,7 +74133,7 @@ var names=
   [
     "stocking-filler",
     "Stocking Filler",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "designers-dream",
@@ -74418,7 +74418,7 @@ var names=
   [
     "musicfile",
     "Musicfile",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "daga-esmeralda-la",
@@ -74583,7 +74583,7 @@ var names=
   [
     "pattern",
     "Pattern",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sport-game",
@@ -74773,7 +74773,7 @@ var names=
   [
     "relocate",
     "Relocate",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cagara",
@@ -74858,7 +74858,7 @@ var names=
   [
     "paintpot",
     "Paintpot",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "mariembad",
@@ -75078,7 +75078,7 @@ var names=
   [
     "rogue-shinny",
     "Rogue",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "total-eclipses-talisman-demo",
@@ -75113,7 +75113,7 @@ var names=
   [
     "strong-demo",
     "Strong Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "airliner",
@@ -75173,7 +75173,7 @@ var names=
   [
     "lode-runner-new-game-set",
     "Lode Runner (New game set)",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "game-for-anything",
@@ -75958,7 +75958,7 @@ var names=
   [
     "patterns-4",
     "Patterns",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "gateway-to-hell",
@@ -76003,7 +76003,7 @@ var names=
   [
     "lines",
     "Lines",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "senku",
@@ -76108,7 +76108,7 @@ var names=
   [
     "go-to-hell-2",
     "Go to Hell 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "haos",
@@ -76158,7 +76158,7 @@ var names=
   [
     "poker-2-2",
     "Poker [2]",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "count-duckula",
@@ -76503,7 +76503,7 @@ var names=
   [
     "esi-demo",
     "ESI Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "five",
@@ -76633,7 +76633,7 @@ var names=
   [
     "ops-type-font-maker",
     "Ops Type Font Maker",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mimzoid-death-dude",
@@ -77243,7 +77243,7 @@ var names=
   [
     "przekladnia-obiegowa",
     "Przekladnia Obiegowa",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "extraordinarios-casos-del-dr-van-halen-caso-5-ultimo-acto-los",
@@ -77613,7 +77613,7 @@ var names=
   [
     "magic-circle-the",
     "Magic Circle, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "music-2",
@@ -77778,12 +77778,12 @@ var names=
   [
     "space-junk",
     "Space Junk",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2017"
+    "Unknown publisher, 2017"
   ],
   [
     "golf-3d",
     "Golf, 3D",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "bandit-4",
@@ -77798,7 +77798,7 @@ var names=
   [
     "directory",
     "Directory",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1986"
+    "Unknown publisher, 1986"
   ],
   [
     "sprite-design",
@@ -77823,7 +77823,7 @@ var names=
   [
     "ritm-1",
     "RITM 1",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "fermate-la-capetan-kid",
@@ -77873,7 +77873,7 @@ var names=
   [
     "kopiarka",
     "Kopiarka",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "triangulo-el",
@@ -77883,7 +77883,7 @@ var names=
   [
     "spirals",
     "Spirals",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "astro-2008",
@@ -77928,7 +77928,7 @@ var names=
   [
     "dizzy-and-the-mystical-letter",
     "Dizzy and the Mystical Letter",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2018"
+    "Unknown publisher, 2018"
   ],
   [
     "ley-del-mas-fuerte-la",
@@ -78023,7 +78023,7 @@ var names=
   [
     "morse-code-tx-and-rx",
     "Morse Code TX and RX",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "test-master",
@@ -78208,7 +78208,7 @@ var names=
   [
     "tf-commander",
     "TF Commander",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "deep-blue",
@@ -78313,7 +78313,7 @@ var names=
   [
     "durell-development-microdrive-cartridges",
     "Durell Development Microdrive Cartridges",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "cash-book-3",
@@ -78333,7 +78333,7 @@ var names=
   [
     "a-to-snad-ne",
     "A To Snad Ne ?!",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "count-the",
@@ -78453,7 +78453,7 @@ var names=
   [
     "tronn",
     "Tronn",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "mr-freeze",
@@ -78698,7 +78698,7 @@ var names=
   [
     "boat-run",
     "Boat Run",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1983"
+    "Unknown publisher, 1983"
   ],
   [
     "super-input-modern",
@@ -78738,7 +78738,7 @@ var names=
   [
     "labyrinth-3d",
     "Labyrinth, 3D",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "chistes",
@@ -79073,7 +79073,7 @@ var names=
   [
     "talking-watch",
     "Talking Watch",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "shakespeare-julius-caesar",
@@ -79158,7 +79158,7 @@ var names=
   [
     "graf-eddi",
     "Graf Eddi",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "poketape-2",
@@ -79408,7 +79408,7 @@ var names=
   [
     "shooty-thing",
     "Shooty-Thing",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "soviet-fighter-mig-29",
@@ -79743,7 +79743,7 @@ var names=
   [
     "mix-2",
     "Mix 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "dungeon-builder-the",
@@ -79753,7 +79753,7 @@ var names=
   [
     "wa-copy",
     "WA Copy",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "letris-2",
@@ -79793,7 +79793,7 @@ var names=
   [
     "haushaltsbuchfuehrung",
     "Haushaltsbuchfuehrung",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "grid-trap",
@@ -79813,7 +79813,7 @@ var names=
   [
     "bioritm",
     "Bioritm",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "fixgen",
@@ -79853,7 +79853,7 @@ var names=
   [
     "busyman",
     "Busyman",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "draw-poker",
@@ -79868,7 +79868,7 @@ var names=
   [
     "p-schrift",
     "P-Schrift",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "duck-shoot-1",
@@ -79898,7 +79898,7 @@ var names=
   [
     "machine-code-loader",
     "Machine Code Loader",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "sound-to-light",
@@ -80018,7 +80018,7 @@ var names=
   [
     "draw-mandel",
     "Draw Mandel",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "pop-corn",
@@ -80113,7 +80113,7 @@ var names=
   [
     "oswald",
     "Oswald",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "basic-training-course-part-4",
@@ -80383,7 +80383,7 @@ var names=
   [
     "synsounds",
     "Synsounds",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "question-of-sport-a",
@@ -80428,7 +80428,7 @@ var names=
   [
     "morse-code-practice",
     "Morse Code Practice",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "their-finest-hour",
@@ -80543,7 +80543,7 @@ var names=
   [
     "bye-bye",
     "Bye Bye",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1996"
+    "Unknown publisher, 1996"
   ],
   [
     "astro-blaster",
@@ -80583,7 +80583,7 @@ var names=
   [
     "vokabeltrainer",
     "Vokabeltrainer",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "heroes-of-magic",
@@ -80613,7 +80613,7 @@ var names=
   [
     "abakus",
     "Abakus",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "serfs-tale-the",
@@ -81158,12 +81158,12 @@ var names=
   [
     "dining",
     "Dining",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "copier",
     "Copier",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "llist-642",
@@ -81213,7 +81213,7 @@ var names=
   [
     "crazy-sound-analyser",
     "Crazy Sound Analyser",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "defender-9",
@@ -81273,7 +81273,7 @@ var names=
   [
     "pascal-hp80",
     "Pascal HP80",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1985"
+    "Unknown publisher, 1985"
   ],
   [
     "superpower-2",
@@ -81363,7 +81363,7 @@ var names=
   [
     "long-journey-home-the",
     "Long Journey Home, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "triscroll",
@@ -81428,7 +81428,7 @@ var names=
   [
     "vast",
     "Vast +",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "linesaver",
@@ -81458,7 +81458,7 @@ var names=
   [
     "belagerung",
     "Belagerung",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "danger-mouse-in-the-black-forest-chateau-2",
@@ -81483,7 +81483,7 @@ var names=
   [
     "billy-bluebottle",
     "Billy Bluebottle",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1984"
+    "Unknown publisher, 1984"
   ],
   [
     "extricator-the",
@@ -81513,7 +81513,7 @@ var names=
   [
     "amiga-advert",
     "Amiga Advert",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "csize",
@@ -81588,7 +81588,7 @@ var names=
   [
     "musical-megademo-2-the",
     "Musical Megademo 2, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rapscallion",
@@ -81628,7 +81628,7 @@ var names=
   [
     "piskvorky",
     "Piskvorky",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "diamonds",
@@ -81798,7 +81798,7 @@ var names=
   [
     "mc-monitor",
     "MC Monitor",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "nukescan",
@@ -81833,7 +81833,7 @@ var names=
   [
     "edytor-tekstu",
     "Edytor Tekstu",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "searchlight",
@@ -82233,7 +82233,7 @@ var names=
   [
     "alaska",
     "Alaska",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "128-music",
@@ -82443,7 +82443,7 @@ var names=
   [
     "skyway-master-maker-demo",
     "Skyway Master Maker Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1987"
+    "Unknown publisher, 1987"
   ],
   [
     "hypersonic",
@@ -82478,7 +82478,7 @@ var names=
   [
     "laufschrift",
     "Laufschrift",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "star-map-from-sol",
@@ -82508,7 +82508,7 @@ var names=
   [
     "katalog",
     "Katalog",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "q-burt",
@@ -82523,7 +82523,7 @@ var names=
   [
     "adultia",
     "Adultia",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "traxtram",
@@ -82688,7 +82688,7 @@ var names=
   [
     "dia-show",
     "Dia Show",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "turbo-text",
@@ -82773,7 +82773,7 @@ var names=
   [
     "triplets",
     "Triplets",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "demo-lition",
@@ -82988,7 +82988,7 @@ var names=
   [
     "pangolin-2",
     "Pangolin",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "programy-obliczeniowe",
@@ -83138,7 +83138,7 @@ var names=
   [
     "mem-test-for-super-80-spectrum",
     "Mem-Test for Super-80 Spectrum",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "castle-blackstar",
@@ -83453,7 +83453,7 @@ var names=
   [
     "czestosciomierz",
     "Czestosciomierz",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "wicked",
@@ -83533,7 +83533,7 @@ var names=
   [
     "q-bertus",
     "Q-Bertus",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "rok-disk-service",
@@ -83578,7 +83578,7 @@ var names=
   [
     "ultima-2",
     "Ultima 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1988"
+    "Unknown publisher, 1988"
   ],
   [
     "bank-or-cash-account",
@@ -83603,7 +83603,7 @@ var names=
   [
     "moon-cargo",
     "Moon-Cargo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "return-to-the-magicland",
@@ -83628,7 +83628,7 @@ var names=
   [
     "audio-frequency-counter",
     "Audio Frequency Counter",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "blava-demo",
@@ -83723,7 +83723,7 @@ var names=
   [
     "techno-2",
     "Techno 2",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1993"
+    "Unknown publisher, 1993"
   ],
   [
     "hercules-slayer-of-the-damned",
@@ -83793,7 +83793,7 @@ var names=
   [
     "mickey-mouse-demo",
     "Mickey Mouse Demo",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1991"
+    "Unknown publisher, 1991"
   ],
   [
     "washing-line",
@@ -83828,7 +83828,7 @@ var names=
   [
     "fire-desire",
     "Fire Desire",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2007"
+    "Unknown publisher, 2007"
   ],
   [
     "calculo-de-errores",
@@ -84098,7 +84098,7 @@ var names=
   [
     "lines-the",
     "Lines, The",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1992"
+    "Unknown publisher, 1992"
   ],
   [
     "melody-music-vi",
@@ -84153,7 +84153,7 @@ var names=
   [
     "noumenon",
     "Noumenon",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 1997"
+    "Unknown publisher, 1997"
   ],
   [
     "pro-tennis-tour",
@@ -84288,7 +84288,7 @@ var names=
   [
     "scroller-by-demarche-demo",
     "Scroller",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, 2010"
+    "Unknown publisher, 2010"
   ],
   [
     "don-cosme",
@@ -84363,7 +84363,7 @@ var names=
   [
     "battle-command-realtime-3d-tank-simulator",
     "Battle Command Realtime 3D Tank Simulator",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "funciones-3d",
@@ -84373,7 +84373,7 @@ var names=
   [
     "flecht",
     "Flecht",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "superman-the-man-of-steel",
@@ -84448,7 +84448,7 @@ var names=
   [
     "geometria",
     "Geometria",
-    "\u0418\u0437\u0434\u0430\u0442\u0435\u043b\u044c \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d"
+    "Unknown publisher"
   ],
   [
     "minstrel",

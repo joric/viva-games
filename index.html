@@ -166,10 +166,10 @@ function getTileNumber(latlng) {
   return -1;
 }
 
-function getTileBounds(tileNumber) {
+function getTileBounds(i) {
   let [[top,left],[bottom,right]] = getBoundingBox();
-  let tx = tileNumber % gridWidth;
-  let ty = Math.floor(tileNumber / gridWidth);
+  let tx = i % gridWidth;
+  let ty = Math.floor(i / gridWidth);
   let rx = left + tx * tileWidth;
   let ry = top + ty * tileHeight;
   return [[ry, rx], [ry+tileHeight, rx+tileWidth]];
@@ -177,9 +177,9 @@ function getTileBounds(tileNumber) {
 
 let current_tile = null;
 
-function zoomToTile(tileNumber) {
-  current_tile = tileNumber;
-  let[[top,left],[bottom,right]] = getTileBounds(tileNumber);
+function zoomToTile(i) {
+  current_tile = i;
+  let[[top,left],[bottom,right]] = getTileBounds(i);
   let extBounds = [[top-8,left],[bottom+8,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
   let popup = L.popup();
