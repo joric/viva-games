@@ -4,7 +4,7 @@
   <base target="_top">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Joric's Viva Games</title>
+  <title>Interactive Map</title>
   <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;," />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.1/dist/leaflet.min.css">
@@ -45,6 +45,7 @@
 <div id="map"></div>
 <div id="overlay"></div>
 <script>
+document.title = conf.title;
 let imageWidth = conf.tileWidth*conf.gridWidth;
 let imageHeight = conf.tileHeight*conf.gridHeight;
 let mapWidth = 2**~~Math.log2(imageWidth);
@@ -82,7 +83,7 @@ L.tileLayer.myCustomLayer('', {
   maxNativeZoom: conf.maxNativeZoom,
   tileSize: tileSize,
   bounds: mapBounds,
-  attribution: conf.attribution,
+  attribution: '<a href="'+conf.attribution+'" target=_blank>'+conf.title+'</a>',
   edgeBufferTiles: 3,
 }).addTo(map);
 
