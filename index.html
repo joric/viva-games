@@ -171,11 +171,11 @@ function getBoundingBox() {
   let top = (h - ph)/2;
   let right = left + pw;
   let bottom = top + ph;
-  return [top,left,right,bottom];
+  return [[top,left],[bottom,right]];
 }
 
 function getTileNumber(latlng) {
-  let [top,left,right,bottom] = getBoundingBox();
+  let [[top,left],[bottom,right]] = getBoundingBox();
   let [y,x] = [latlng.lat, latlng.lng];
   if (x>=left && x<right && y>=top && y<bottom) {
     x -= left;
@@ -188,7 +188,7 @@ function getTileNumber(latlng) {
 }
 
 function getTileBounds(tileNumber) {
-  let [top,left,right,bottom] = getBoundingBox();
+  let [[top,left],[bottom,right]] = getBoundingBox();
   let tx = tileNumber % cw;
   let ty = Math.floor(tileNumber / cw);
   let rx = left + tx * tw;
@@ -249,13 +249,13 @@ let current_tile = null;
 
 function zoomToTile(tileNumber) {
   current_tile = tileNumber;
-  let id = names[tileNumber];
-  window.location.hash = id;
-  bounds = getTileBounds(tileNumber);
-  let extBounds = [[bounds[0][0]-8,bounds[0][1]],[bounds[1][0]+8,bounds[1][1]]];
+  let[[top,left],[bottom,right]] = getTileBounds(tileNumber);
+  let extBounds = [[top-8,left],[bottom+8,right]];
   map.flyToBounds(extBounds, {duration: 0.3});
   let popup = L.popup();
-  let point = L.latLng(bounds[0][0],(bounds[0][1]+bounds[1][1])/2)
+  let point = L.latLng(top,(left+right)/2);
+  let id = names[tileNumber];
+  window.location.hash = id;
   popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
 }
 
