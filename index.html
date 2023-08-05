@@ -170,6 +170,7 @@ searchControl = new L.Control.Search({
   hideMarkerOnCollapse: true,
   position: 'topright',
   autoResize: true,
+  marker: false,
   moveToLocation: function(latlng, title, map) {
       let i = getTileNumber(latlng);
       if (i>=0) {
