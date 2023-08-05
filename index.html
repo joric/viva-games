@@ -158,7 +158,7 @@ for (var i=0; i<n; i++) {
     data[i] = {"loc":[y,x], "title":title+' ('+pub+')'};
 }
 
-searchLayer = new L.Control.Search({
+searchControl = new L.Control.Search({
   sourceData: function(text, callResponse) {
     callResponse(data);
     return { abort: function() {} }
@@ -170,7 +170,20 @@ searchLayer = new L.Control.Search({
   hideMarkerOnCollapse: true,
   position: 'topright',
   autoResize: true,
+  moveToLocation: function(latlng, title, map) {
+      let i = getTileNumber(latlng);
+      if (i>=0) {
+        zoomToTile(i);
+      }
+  }
 }).addTo(map);
+
+window.addEventListener("keydown",function (e) {
+  if (e.keyCode === 70 && e.ctrlKey) { // Ctrl + F
+    searchControl.expand(true);
+    e.preventDefault();
+  }
+});
 
 let current_tile = null;
 
