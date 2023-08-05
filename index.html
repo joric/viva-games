@@ -21,6 +21,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
 
+  <script src="tiles/settings.js"></script>
   <script src="tiles/names.js"></script>
 
   <style>
@@ -44,19 +45,16 @@
 <div id="map"></div>
 <div id="overlay"></div>
 <script>
-
-let mapWidth = mapHeight = 32768;
-let tileWidth = 256;
-let tileHeight = 192;
-let gridWidth = 128;
-let gridHeight = 132;
-
-let minNativeZoom = 1;
-let maxNativeZoom = 6;
+let tileWidth = settings.tileWidth;
+let tileHeight = settings.tileHeight;
+let gridWidth = settings.gridWidth;
+let gridHeight = settings.gridHeight;
+let minNativeZoom = settings.minNativeZoom;
+let maxNativeZoom = settings.maxNativeZoom;
 
 let imageWidth = tileWidth*gridWidth;
 let imageHeight = tileHeight*gridHeight;
-
+let mapWidth = mapHeight = imageWidth;
 let tileSize = 512;
 let factor = tileSize / mapWidth;
 let mapBounds = [[0,0], [mapHeight, mapWidth]];
@@ -90,7 +88,7 @@ L.tileLayer.myCustomLayer('', {
   maxNativeZoom: maxNativeZoom,
   tileSize: tileSize,
   bounds: mapBounds,
-  attribution: '<a href="https://github.com/joric/viva-games" target="_blank">Joric\'s Viva Games</a>',
+  attribution: settings.attribution,
   edgeBufferTiles: 3,
 }).addTo(map);
 
@@ -199,7 +197,7 @@ function zoomToTile(i) {
   let popup = L.popup({maxWidth : 740});
   let point = L.latLng(top,(left+right)/2);
   let [id,title,pub] = names[i];
-  popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
+  popup.setLatLng(point).setContent('<a href="'+settings.urlPrefix+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
   window.location.hash = id;
   currentTile = i;
 }
