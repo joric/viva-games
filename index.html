@@ -254,10 +254,12 @@ map.on('click', function(e) {
     }
   } else {
     // zoom to tile
+    let tileBounds = [[bounds[0][0]-10,bounds[0][1]],[bounds[1][0]+10,bounds[1][1]]]
     map.flyToBounds(bounds, {duration: 0.3});
     current_tile = t;
     let popup = L.popup();
-    popup.setLatLng(e.latlng).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
+    let point = L.latLng(bounds[0][0],(bounds[0][1]+bounds[1][1])/2)
+    popup.setLatLng(point).setContent('<a href="https://viva-games.ru/game/'+id+'" target=_blank>https://viva-games.ru/game/'+id+'</a>').openOn(map);
   }
 });
 
