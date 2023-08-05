@@ -16,7 +16,6 @@ for name in open('names.txt').read().splitlines():
 
 open(outdir+'/names.js','w').write('var names=\n'+json.dumps(names,indent='  ')+';\n')
 
-# rewrite settings
-settings = json.load(open('settings.json',encoding='utf-8'))
-open(outdir+'/settings.js','w').write('var settings=\n'+json.dumps(settings,indent='  ')+';\n')
+conf = json.load(open('conf.json',encoding='utf-8'))
+open(outdir+'/conf.js','w').write('var conf=\n'+json.dumps(conf,indent='  ')+';\n')
 

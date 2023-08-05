@@ -21,7 +21,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
 
-  <script src="tiles/settings.js"></script>
+  <script src="tiles/conf.js"></script>
   <script src="tiles/names.js"></script>
 
   <style>
@@ -45,16 +45,8 @@
 <div id="map"></div>
 <div id="overlay"></div>
 <script>
-let tileWidth = settings.tileWidth;
-let tileHeight = settings.tileHeight;
-let gridWidth = settings.gridWidth;
-let gridHeight = settings.gridHeight;
-let minNativeZoom = settings.minNativeZoom;
-let maxNativeZoom = settings.maxNativeZoom;
-
-let imageWidth = tileWidth*gridWidth;
-let imageHeight = tileHeight*gridHeight;
-
+let imageWidth = conf.tileWidth*conf.gridWidth;
+let imageHeight = conf.tileHeight*conf.gridHeight;
 let mapWidth = 2**~~Math.log2(imageWidth);
 let mapHeight = mapWidth;
 let tileSize = 512;
@@ -86,11 +78,11 @@ L.tileLayer.myCustomLayer = function(templateUrl, options) {
 
 L.tileLayer.myCustomLayer('', {
   minZoom: 0,
-  minNativeZoom: minNativeZoom,
-  maxNativeZoom: maxNativeZoom,
+  minNativeZoom: conf.minNativeZoom,
+  maxNativeZoom: conf.maxNativeZoom,
   tileSize: tileSize,
   bounds: mapBounds,
-  attribution: settings.attribution,
+  attribution: conf.attribution,
   edgeBufferTiles: 3,
 }).addTo(map);
 
@@ -100,8 +92,8 @@ map.setMaxBounds([[-b,-b], [mapHeight+b, mapWidth+b]]);
 // mini map
 var osm2 = L.tileLayer.myCustomLayer('', {
   minZoom: -2,
-  minNativeZoom: minNativeZoom,
-  maxNativeZoom: maxNativeZoom,
+  minNativeZoom: conf.minNativeZoom,
+  maxNativeZoom: conf.maxNativeZoom,
   tileSize: tileSize,
   bounds: mapBounds,
 });
@@ -127,11 +119,11 @@ function getImageBounds() {
 
 function getTileBounds(i) {
   let [[top,left],[bottom,right]] = getImageBounds();
-  let tx = i % gridWidth;
-  let ty = Math.floor(i / gridWidth);
-  let rx = left + tx * tileWidth;
-  let ry = top + ty * tileHeight;
-  return [[ry, rx], [ry+tileHeight, rx+tileWidth]];
+  let tx = i % conf.gridWidth;
+  let ty = Math.floor(i / conf.gridWidth);
+  let rx = left + tx * conf.tileWidth;
+  let ry = top + ty * conf.tileHeight;
+  return [[ry, rx], [ry+conf.tileHeight, rx+conf.tileWidth]];
 }
 
 function getTileNumber(latlng) {
@@ -140,9 +132,9 @@ function getTileNumber(latlng) {
   if (x>=left && x<right && y>=top && y<bottom) {
     x -= left;
     y -= top;
-    let tx = Math.floor(x / tileWidth);
-    let ty = Math.floor(y / tileHeight);
-    return tx + Math.floor(imageWidth / tileWidth) * ty;
+    let tx = Math.floor(x / conf.tileWidth);
+    let ty = Math.floor(y / conf.tileHeight);
+    return tx + Math.floor(imageWidth / conf.tileWidth) * ty;
   }
   return -1;
 }
@@ -201,7 +193,7 @@ function zoomToTile(i) {
   let popup = L.popup({maxWidth : 740});
   let point = L.latLng(top,(left+right)/2);
   let [id,title,pub] = names[i];
-  popup.setLatLng(point).setContent('<a href="'+settings.urlPrefix+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
+  popup.setLatLng(point).setContent('<a href="'+conf.urlPrefix+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
   window.location.hash = id;
   currentTile = i;
 }
@@ -218,7 +210,7 @@ map.on('click', function(e) {
   if (currentTile != t) {
     zoomToTile(t);
   } else {
-    map.setZoom(maxNativeZoom);
+    map.setZoom(conf.maxNativeZoom);
     currentTile = null;
   }
 });

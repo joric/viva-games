@@ -1,4 +1,4 @@
-var settings=
+var conf=
 {
   "tileWidth": 256,
   "tileHeight": 192,
