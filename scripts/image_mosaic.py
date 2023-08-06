@@ -16,17 +16,13 @@ tw = 256
 th = 192
 
 n = len(images)
-
 cw = 32768//tw
 ch = n//cw
-
 w = tw*cw
 h = th*ch
-
 x = 0
 y = 0
 dy = (w-h)//2
-
 h = w
 
 print('writing image %d x %d (%d tiles)' % (cw, ch, cw*ch))
@@ -116,28 +112,21 @@ def find_best_match_random_target(target_colors, source_colors):
     best_target_index = target_index
     avg = target_colors[target_index]
 
-    #if avg[0]==0 and avg[1]==0 and avg[2]==0:
-    #    return target_index, -1
-
     for source_index in source_set:
-
         val = source_colors[source_index]
-
         dist = (abs(val[0] - avg[0]) +
                 abs(val[1] - avg[1]) +
                 abs(val[2] - avg[2]))
-
         if dist < best_dist:
             best_dist = dist
             best_source_index = source_index
             best_target_index = target_index
 
     source_set.remove(best_source_index)
-
     return best_target_index, best_source_index
 
 
-random.seed(n) # deterministic seed to preseve name order for given size
+random.seed(n) # deterministic seed to preserve name order for given size
 
 names = ['']*n
 
@@ -163,8 +152,6 @@ for i in range(n):
     id = name.split('.')[0]
     names[target_index] = id
 
-
 open('names.txt','w').write('\n'.join(names))
 sys.stderr.write("Saving output file (%dx%d), please wait a few seconds...       \r" % (w,h))
 grid_img.save('output.png')
-
