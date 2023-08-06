@@ -48,7 +48,7 @@
 document.title = conf.title;
 let imageWidth = conf.tileWidth*conf.gridWidth;
 let imageHeight = conf.tileHeight*conf.gridHeight;
-let mapWidth = 2**~~Math.log2(imageWidth);
+let mapWidth = 2**Math.ceil(Math.log2(imageWidth));
 let mapHeight = mapWidth;
 let tileSize = 512;
 let factor = tileSize / mapWidth;
