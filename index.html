@@ -210,7 +210,7 @@ map.on('click', function(e) {
   if (t<0) {
     return;
   }
-  if (currentTile != t) {
+  if (currentTile != t || map.getZoom()<conf.maxNativeZoom) {
     zoomToTile(t);
   } else {
     map.setZoom(conf.maxNativeZoom);
