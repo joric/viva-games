@@ -62,11 +62,9 @@ def get_colors(cname):
     return colors
 
 def split_image(image, size):
-
     w, h = image.size
     cw, ch = size
     avgs = []
-
     x = y = 0
 
     for j in range(ch):
@@ -90,27 +88,10 @@ def split_image(image, size):
 
     return avgs
 
-def spiral_order(matrix):
-    ans=[]
-    while matrix:
-        ans+=matrix.pop(0)
-        matrix[:]=[*zip(*matrix)][::-1]
-    return list(ans)
-
-matrix = [[0]*cw for _ in range(ch)]
-
-for i in range(ch):
-    for j in range(cw):
-        matrix[i][j] = i*cw + j
-
-spiral = spiral_order(matrix)
-
 # -----------------
 
 grid_size = (cw,ch)
-
 target_colors = split_image(target_image, grid_size)
-
 n = len(target_colors)
 
 # loading_colors (delete colors.csv to re-cache for new images)
@@ -124,87 +105,6 @@ grid_img = Image.new('RGB', (w, h))
 
 target_set = set(range(len(target_colors)))
 source_set = set(range(len(tile_colors)))
-
-def find_best_match(target_colors, source_colors):
-
-    best_target_index = 0
-    best_source_index = 0
-    best_dist = float("inf")
-
-    for target_index in target_set:
-        avg = target_colors[target_index]
-
-        for source_index in source_set:
-
-            val = source_colors[source_index]
-
-            dist = (abs(val[0] - avg[0]) +
-                    abs(val[1] - avg[1]) +
-                    abs(val[2] - avg[2]))
-
-            if dist < best_dist:
-                best_dist = dist
-                best_source_index = source_index
-                best_target_index = target_index
-
-    target_set.remove(best_target_index)
-    source_set.remove(best_source_index)
-
-    return best_target_index, best_source_index
-
-def find_best_match_fast(target_colors, source_colors):
-    best_source_index = 0
-    best_dist = float("inf")
-
-    target_index = target_set.pop()
-    best_target_index = target_index
-    avg = target_colors[target_index]
-
-    for source_index in source_set:
-
-        val = source_colors[source_index]
-
-        dist = (abs(val[0] - avg[0]) +
-                abs(val[1] - avg[1]) +
-                abs(val[2] - avg[2]))
-
-        if dist < best_dist:
-            best_dist = dist
-            best_source_index = source_index
-            best_target_index = target_index
-
-    source_set.remove(best_source_index)
-
-    return best_target_index, best_source_index
-
-def find_best_match_random(target_colors, source_colors):
-    best_source_index = 0
-    best_dist = float("inf")
-
-    target_index = random.choice(tuple(target_set))
-    target_set.remove(target_index)
-
-    best_target_index = target_index
-    avg = target_colors[target_index]
-
-    for i in range(100):
-
-        source_index = random.choice(tuple(source_set))
-
-        val = source_colors[source_index]
-
-        dist = (abs(val[0] - avg[0]) +
-                abs(val[1] - avg[1]) +
-                abs(val[2] - avg[2]))
-
-        if dist < best_dist:
-            best_dist = dist
-            best_source_index = source_index
-            best_target_index = target_index
-
-    source_set.remove(best_source_index)
-
-    return best_target_index, best_source_index
 
 def find_best_match_random_target(target_colors, source_colors):
     best_source_index = -1
