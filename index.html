@@ -187,18 +187,24 @@ window.addEventListener("keydown",function (e) {
   }
 });
 
-currentTile = null;
+let currentTile = null;
 
-function zoomToTile(i) {
+function zoomToTile(i, zoomLevel) {
+  currentTile = i;
   let[[top,left],[bottom,right]] = getTileBounds(i);
   let extBounds = [[top-12,left],[bottom+12,right]];
-  map.flyToBounds(extBounds, {duration: 0.3});
+
+  if (zoomLevel) {
+    map.setZoom(zoomLevel);
+  } else {
+    map.flyToBounds(extBounds, {duration: 0.3});
+  }
+
+  let [id,title,pub] = names[i];
   let popup = L.popup({maxWidth : 740});
   let point = L.latLng(top,(left+right)/2);
-  let [id,title,pub] = names[i];
   popup.setLatLng(point).setContent('<a href="'+conf.urlPrefix+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
   window.location.hash = id;
-  currentTile = i;
 }
 
 map.on('popupclose', function(e) {
@@ -206,14 +212,14 @@ map.on('popupclose', function(e) {
 });
 
 map.on('click', function(e) {
-  let t = getTileNumber(e.latlng);
-  if (t<0) {
+  let i = getTileNumber(e.latlng);
+  if (i<0) {
     return;
-  }
-  if (currentTile != t || map.getZoom()<conf.maxNativeZoom) {
-    zoomToTile(t);
+  } 
+  if (currentTile != i || map.getZoom()<conf.maxNativeZoom) {
+    zoomToTile(i);
   } else {
-    map.setZoom(conf.maxNativeZoom);
+    zoomToTile(i, conf.maxNativeZoom);
     currentTile = null;
   }
 });
