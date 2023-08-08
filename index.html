@@ -65,6 +65,7 @@ L.CRS.myCRS = L.extend({}, L.CRS.Simple, {
 
 let map = L.map('map', {
   crs: L.CRS.myCRS,
+  doubleClickZoom: false,
   fullscreenControl: true,
   fullscreenControlOptions: {
       position: 'topleft'
@@ -215,8 +216,7 @@ map.on('popupclose', function(e) {
 });
 
 map.on('click', function(e) {
-  let i = getTileNumber(e.latlng);
-  if (i<0) {
+  if ((i = getTileNumber(e.latlng))<0) {
     return;
   } 
   if (currentTile != i || map.getZoom()<conf.maxNativeZoom) {
