@@ -182,6 +182,7 @@ searchControl = L.control.search({
   marker: false,
   moveToLocation: function(latlng, title, map) {
     if ((i = getTileNumber(latlng))>=0) {
+      searchControl.collapse();
       zoomToTile(i);
     }
   },
