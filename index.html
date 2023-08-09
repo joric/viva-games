@@ -172,6 +172,7 @@ var fuse = new Fuse(jsonData, {
     'properties.name',
     'properties.pub',
   ],
+  threshold: 0.0, // no fuzzy search
 });
 
 searchControl = L.control.search({
