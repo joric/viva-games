@@ -46,6 +46,10 @@ html, body, #map, .leaflet-control-minimap {
 .search-input {
   width: 300px;
 }
+.search-tooltip {
+  width: 350px;
+}
+
 </style>
 </head>
 <body>
@@ -182,6 +186,39 @@ searchControl = new L.Control.Search({
       zoomToTile(i);
     }
   },
+  filterData: function(text, records) {
+    const frecords = {}
+    text = text.replace(new RegExp('[.*+?^${}()|[\]\\]','g'), '')
+    if (text === '') {
+      return []
+    }
+    const init = this.options.initial ? '^' : ''
+    const icase = !this.options.casesensitive ? 'i' : undefined
+    const regSearch = new RegExp(init + text, icase)
+    for (const key in records) {
+      if (regSearch.test(key)) {
+        frecords[key] = records[key]
+      }
+    }
+    // add search by separate words
+    words = text.split(' ');
+    for (const key in records) {
+      if (key in frecords) {
+        continue;
+      }
+      let matches = 0;
+      for (word of words) {
+        const regSearch = new RegExp(init + word, icase)
+        if (regSearch.test(key)) {
+          matches += 1;
+        }
+      }
+      if (matches==words.length) {
+        frecords[key] = records[key];
+      }
+    }
+    return frecords;
+  }
 }).addTo(map);
 
 window.addEventListener("keydown",function (e) {
