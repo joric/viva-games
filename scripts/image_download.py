@@ -61,7 +61,10 @@ for i, (id, fname, url, title) in enumerate(data):
     im = im.convert('RGB')
     if im.size != size:
         #print('resizing', fname, 'to', size, 'was', im.size)
-        im = im.resize(size)
+        if im.size == (384,288):
+            im = im.crop((0,0,256,192))
+        else:
+            im = im.resize(size)
 
     b = io.BytesIO()
     im.save(b, 'png', optimize=True)
