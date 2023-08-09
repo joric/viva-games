@@ -46,11 +46,12 @@ html, body, #map, .leaflet-control-minimap {
   image-rendering: pixelated;
   overflow: hidden;
 }
-.search-input {
+.leaflet-control-search .search-input {
   width: 300px;
 }
-.search-tooltip {
+.leaflet-control-search .search-tooltip {
   width: 350px;
+  max-height: 242px;
 }
 
 </style>
@@ -200,6 +201,41 @@ searchControl = L.control.search({
   }
 })
 .addTo(map);
+
+searchControl._createTip = function(text, val) {
+  let tip
+  if (this.options.buildTip) {
+    tip = this.options.buildTip.call(this, text, val) // custom tip node or html string
+    if (typeof tip === 'string') {
+      const tmpNode = L.DomUtil.create('div')
+      tmpNode.innerHTML = tip
+      tip = tmpNode.firstChild
+    }
+  } else {
+    tip = L.DomUtil.create('li', '')
+    tip.innerHTML = text
+  }
+  L.DomUtil.addClass(tip, 'search-tip')
+  tip._text = text // value replaced in this._input and used by _autoType
+
+  if (this.options. tipAutoSubmit) {
+    L.DomEvent
+      .disableClickPropagation(tip)
+      .on(tip, 'click', L.DomEvent.stop, this)
+      .on(tip, 'click', function (e) {
+        //this._input.value = text
+        this._handleAutoresize()
+        this._input.focus()
+        //this._hideTooltip()
+        //this._handleSubmit()
+        const latlng = this._getLocation(text);
+        if ((i = getTileNumber(latlng))>=0) {
+          zoomToTile(i);
+        }
+      }, this)
+  }
+  return tip
+}
 
 window.addEventListener("keydown",function (e) {
   if (e.keyCode === 70 && e.ctrlKey) { // Ctrl + F
