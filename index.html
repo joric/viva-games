@@ -30,6 +30,9 @@
 <!-- leaflet-edgebuffer -->
 <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
 
+<!-- fuse -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
+
 <!-- data -->
 <script src="tiles/names.js"></script>
 
@@ -152,74 +155,51 @@ function getTileNumber(latlng) {
 
 // search
 var n = names.length;
-var data = new Array(n);
 var lookup = {};
+var jsonData = new Array(n);
+
 for (var i=0; i<n; i++) {
-    let [id,title,pub] = names[i];
+    let [id,name,pub] = names[i];
     let [[top,left],[bottom,right]] = getTileBounds(i);
     let x = left + (right-left) / 2;
     let y = top + (bottom-top) / 2;
-    data[i] = {"loc":[y,x], "title":title+' ('+pub+')'};
+    let title = name+' ('+pub+')';
+    jsonData[i] = {"loc":[y,x], "title":title, "properties":{"name":name, "pub":pub}};
     lookup[id] = i;
 }
-data.sort(function(a, b) {
-    return a.title.localeCompare(b.title)
+
+var fuse = new Fuse(jsonData, {
+  keys: [
+    'properties.name',
+    'properties.pub',
+  ],
 });
 
-searchControl = new L.Control.Search({
-  autoType: true,
+searchControl = L.control.search({
+  position:'topright',
+  tooltipLimit: 50,
   firstTipSubmit: true,
-  text:'Text...',
-  markerLocation: true,
-  initial: false,
-  position: 'topright',
-  autoResize: true,
-  tooltipLimit: 100,
   marker: false,
-  sourceData: function(text, callResponse) {
-    callResponse(data);
-    return { abort: function() {} }
-  },
   moveToLocation: function(latlng, title, map) {
-    let i = getTileNumber(latlng);
-    if (i>=0) {
+    if ((i = getTileNumber(latlng))>=0) {
       zoomToTile(i);
     }
   },
+  sourceData: function(text, callResponse) {
+    callResponse(jsonData);
+  },
   filterData: function(text, records) {
-    const frecords = {}
-    text = text.replace(new RegExp('[.*+?^${}()|[\]\\]','g'), '')
-    if (text === '') {
-      return []
-    }
-    const init = this.options.initial ? '^' : ''
-    const icase = !this.options.casesensitive ? 'i' : undefined
-    const regSearch = new RegExp(init + text, icase)
-    for (const key in records) {
-      if (regSearch.test(key)) {
-        frecords[key] = records[key]
+    var jsons = fuse.search(text), ret = {}, key;
+    for(var i in jsons) {
+      if (jsons[i]) {
+        key = jsons[i].item.title;
+        ret[key] = records[key];
       }
     }
-    // add search by separate words
-    words = text.split(' ');
-    for (const key in records) {
-      if (key in frecords) {
-        continue;
-      }
-      let matches = 0;
-      for (word of words) {
-        const regSearch = new RegExp(init + word, icase)
-        if (regSearch.test(key)) {
-          matches += 1;
-        }
-      }
-      if (matches==words.length) {
-        frecords[key] = records[key];
-      }
-    }
-    return frecords;
+    return ret;
   }
-}).addTo(map);
+})
+.addTo(map);
 
 window.addEventListener("keydown",function (e) {
   if (e.keyCode === 70 && e.ctrlKey) { // Ctrl + F
