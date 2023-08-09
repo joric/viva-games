@@ -154,11 +154,9 @@ function getTileNumber(latlng) {
 }
 
 // search
-var n = names.length;
 var lookup = {};
-var jsonData = new Array(n);
-
-for (var i=0; i<n; i++) {
+var jsonData = new Array(names.length);
+for (i in names) {
     let [id,name,pub] = names[i];
     let [[top,left],[bottom,right]] = getTileBounds(i);
     let x = left + (right-left) / 2;
@@ -180,9 +178,11 @@ searchControl = L.control.search({
   tooltipLimit: 50,
   firstTipSubmit: true,
   marker: false,
+  autoType: false,
+  autoCollapse: true,
+  tipAutoSubmit: true,
   moveToLocation: function(latlng, title, map) {
     if ((i = getTileNumber(latlng))>=0) {
-      searchControl.collapse();
       zoomToTile(i);
     }
   },
