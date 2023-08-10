@@ -2,6 +2,7 @@ import csv
 import os
 import urllib.request
 from PIL import Image
+from collections import *
 import io
 import sys
 
@@ -12,6 +13,7 @@ data = []
 names = set()
 lines = 0
 noimg = 0
+c = Counter()
 
 if not os.path.exists(basedir):
     os.makedirs(basedir)
@@ -35,9 +37,12 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
 
     data.append((id, fname, url, title))
     names.add(fname)
+    c[fname] += 1
 
 data.sort()
-print('lines read %d, usable images %d, no-images: %d' % (lines, len(names), noimg))
+
+dup = sum(v for _,v in c.items() if v>1)
+print('lines read %d, usable images %d, no-images: %d, duplicate images: %d' % (lines, len(names), noimg, dup))
 
 existing = set([e.name for e in os.scandir(basedir)])
 total = len(names)
