@@ -163,13 +163,13 @@ for (i in names) {
     let x = left + (right-left) / 2;
     let y = top + (bottom-top) / 2;
     let title = name+' ('+pub+')';
-    jsonData[i] = {"loc":[y,x], "title":title, "properties":{"title":title}};
+    jsonData[i] = {"loc":[y,x], "title":title};
     lookup[id] = i;
 }
 
 var fuse = new Fuse(jsonData, {
   keys: [
-    'properties.title',
+    'title',
   ],
   threshold: 0.25,
   ignoreLocation: true,
