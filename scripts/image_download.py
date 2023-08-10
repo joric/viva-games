@@ -11,6 +11,7 @@ size=(256,192)
 data = []
 names = set()
 lines = 0
+noimg = 0
 
 if not os.path.exists(basedir):
     os.makedirs(basedir)
@@ -24,18 +25,19 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
     lines += 1
 
     if 'game-no-image' in url:
+        noimg += 1
         continue
 
     for key,ext in {'.gif-200x150.png':'.gif', '-200x150.png':'.png', '-200x150.gif':'.gif'}.items():
         if key in url:
             fname = basedir + '/' + id + ".png"
-            url = url.replace(key,ext)
-            data.append((id, fname, url, title))
-            names.add(fname)
-            continue
+            url = url.replace(key, ext)
+
+    data.append((id, fname, url, title))
+    names.add(fname)
 
 data.sort()
-print('lines read %d, usable images %d' % (lines, len(names)))
+print('lines read %d, usable images %d, no-images: %d' % (lines, len(names), noimg))
 
 existing = set([e.name for e in os.scandir(basedir)])
 total = len(names)
