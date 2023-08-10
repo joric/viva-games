@@ -35,7 +35,7 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
             continue
 
 data.sort()
-print('lines read %d, usable names %d' % (lines, len(names)))
+print('lines read %d, usable images %d' % (lines, len(names)))
 
 existing = set([e.name for e in os.scandir(basedir)])
 total = len(names)
@@ -49,7 +49,7 @@ for i, (id, fname, url, title) in enumerate(data):
     try:
         response = urllib.request.urlopen(req)
     except urllib.error.HTTPError as e:
-        print('%s: name: %s url: %s' % (e, fname, url))
+        #print('%s: name: %s url: %s' % (e, fname, url))
         continue
 
     buf = response.read()
