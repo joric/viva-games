@@ -11,9 +11,9 @@ size=(256,192)
 
 data = []
 names = set()
+usable = 0
 lines = 0
 noimg = 0
-c = Counter()
 
 if not os.path.exists(basedir):
     os.makedirs(basedir)
@@ -37,12 +37,10 @@ for s in csv.reader(open('viva.csv',encoding='utf-8'), delimiter='\t'):
 
     data.append((id, fname, url, title))
     names.add(fname)
-    c[fname] += 1
+    usable += 1
 
 data.sort()
-
-dup = sum(v for _,v in c.items() if v>1)
-print('lines read %d, usable images %d, no-images: %d, duplicate images: %d' % (lines, len(names), noimg, dup))
+print('lines read %d, usable images %d, no-images: %d, non-duplicate images: %d' % (lines, usable, noimg, len(names)))
 
 existing = set([e.name for e in os.scandir(basedir)])
 total = len(names)
