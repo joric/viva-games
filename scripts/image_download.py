@@ -59,7 +59,7 @@ for key in sorted(data.keys()):
     try:
         response = urllib.request.urlopen(req)
     except urllib.error.HTTPError as e:
-        #print('%s: name: %s url: %s' % (e, fname, url))
+        print('%s: name: %s url: %s' % (e, fname, url))
         errors += 1
         continue
 
