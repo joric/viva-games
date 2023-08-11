@@ -233,7 +233,7 @@ searchControl._createTip = function(text, val) {
         //this._handleSubmit()
         const latlng = this._getLocation(text);
         if ((i = getTileNumber(latlng))>=0) {
-          zoomToTile(i);
+          zoomToTile(i, map.getZoom());
         }
       }, this)
   }
@@ -249,15 +249,22 @@ window.addEventListener("keydown",function (e) {
 
 let currentTile = null;
 
-function zoomToTile(i, zoomLevel) {
-  currentTile = i;
-  let[[top,left],[bottom,right]] = getTileBounds(i);
-  let extBounds = [[top-12,left],[bottom+12,right]];
+function zoomToTile(i, zoomLevel, zoomPanOptions) {
+  let [[top,left],[bottom,right]] = getTileBounds(i);
 
   if (zoomLevel) {
-    map.setZoom(zoomLevel);
+    zoomLevel = Math.min(conf.maxNativeZoom, zoomLevel);
+  }
+
+  if (!zoomPanOptions) {
+    zoomPanOptions = {animate: true, duration: 0.25};
+  }
+
+  if (zoomLevel) {
+    //map.setZoom(zoomLevel);
+    map.flyTo([top+(bottom-top)/2,left+(right-left)/2], zoomLevel, zoomPanOptions);
   } else {
-    map.flyToBounds(extBounds, {duration: 0.3});
+    map.flyToBounds([[top-12,left],[bottom+12,right]], {duration: 0.3});
   }
 
   let [id,title,pub] = names[i];
@@ -277,6 +284,7 @@ map.on('click', function(e) {
   } 
   if (currentTile != i || map.getZoom()<conf.maxNativeZoom) {
     zoomToTile(i);
+    currentTile = i;
   } else {
     zoomToTile(i, conf.maxNativeZoom);
     currentTile = null;
@@ -285,7 +293,7 @@ map.on('click', function(e) {
 
 window.onload = function(e) {
   if (location.hash.length>1) {
-    zoomToTile(lookup[location.hash.slice(1)]);
+    zoomToTile(lookup[location.hash.slice(1)], conf.maxNativeZoom);
   }
 };
 
