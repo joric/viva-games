@@ -101,8 +101,7 @@ L.tileLayer.myCustomLayer('', {
   edgeBufferTiles: 3,
 }).addTo(map);
 
-let b = mapWidth; //add border to allow zooming on corners
-map.setMaxBounds([[-b,-b], [mapHeight+b, mapWidth+b]]);
+map.setMaxBounds([[-mapHeight,-mapWidth], [mapHeight*2, mapWidth*2]]);
 
 // mini map
 var osm2 = L.tileLayer.myCustomLayer('', {
