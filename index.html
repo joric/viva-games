@@ -251,7 +251,7 @@ let currentTile = null;
 function zoomToTile(i, zoomLevel, zoomPanOptions) {
   let [[top,left],[bottom,right]] = getTileBounds(i);
 
-  if (zoomLevel) {
+  if (zoomLevel != undefined) {
     zoomLevel = Math.min(conf.maxNativeZoom, zoomLevel);
   }
 
