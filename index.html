@@ -233,6 +233,7 @@ searchControl._createTip = function(text, val) {
         const latlng = this._getLocation(text);
         if ((i = getTileNumber(latlng))>=0) {
           zoomToTile(i, map.getZoom());
+          currentTile = i;
         }
       }, this)
   }
