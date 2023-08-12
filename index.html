@@ -233,7 +233,6 @@ searchControl._createTip = function(text, val) {
         const latlng = this._getLocation(text);
         if ((i = getTileNumber(latlng))>=0) {
           zoomToTile(i, map.getZoom());
-          currentTile = i;
         }
       }, this)
   }
@@ -272,6 +271,7 @@ function zoomToTile(i, zoomLevel, zoomPanOptions) {
   let point = L.latLng(top,(left+right)/2);
   popup.setLatLng(point).setContent('<a href="'+conf.urlPrefix+id+'" target=_blank>'+title+' ('+pub+')</a>').openOn(map);
   window.location.hash = id;
+  currentTile = i;
 }
 
 map.on('popupclose', function(e) {
@@ -284,7 +284,6 @@ map.on('click', function(e) {
   } 
   if (currentTile != i || map.getZoom()<conf.maxNativeZoom) {
     zoomToTile(i);
-    currentTile = i;
   } else {
     zoomToTile(i, conf.maxNativeZoom);
     currentTile = null;
