@@ -251,15 +251,11 @@ let currentTile = null;
 function zoomToTile(i, zoomLevel, zoomPanOptions) {
   let [[top,left],[bottom,right]] = getTileBounds(i);
 
-  if (zoomLevel != undefined) {
-    zoomLevel = Math.min(conf.maxNativeZoom, zoomLevel);
-  }
-
   if (!zoomPanOptions) {
     zoomPanOptions = {animate: true, duration: 0.25};
   }
 
-  if (zoomLevel) {
+  if (zoomLevel!=undefined) {
     //map.setZoom(zoomLevel);
     map.flyTo([top+(bottom-top)/2,left+(right-left)/2], zoomLevel, zoomPanOptions);
   } else {
