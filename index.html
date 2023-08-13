@@ -46,12 +46,27 @@ html, body, #map, .leaflet-control-minimap {
   image-rendering: pixelated;
   overflow: hidden;
 }
+
 .leaflet-control-search .search-input {
-  width: 300px;
+  width: 0px;
+  //transition: 0.4s;
 }
+
+.leaflet-control-search .search-input:focus {
+  width: 250px;
+}
+
 .leaflet-control-search .search-tooltip {
-  width: 350px;
+  width: 300px;
   max-height: 242px;
+  border-radius:.25em;
+  margin-top: 2px;
+}
+
+.leaflet-control-search .search-tip {
+  margin:0px;
+  padding:0px 4px;
+  border-radius:0em;
 }
 
 </style>
@@ -76,7 +91,7 @@ let map = L.map('map', {
   doubleClickZoom: false,
   fullscreenControl: true,
   fullscreenControlOptions: {
-      position: 'topleft'
+      position: 'topright'
   },
 }).setView([mapWidth/2,mapHeight/2],0);
 
@@ -177,7 +192,7 @@ var fuse = new Fuse(jsonData, {
 });
 
 searchControl = L.control.search({
-  position:'topright',
+  position:'topleft',
   tooltipLimit: 50,
   firstTipSubmit: true,
   marker: false,
@@ -219,6 +234,7 @@ searchControl._createTip = function(text, val) {
   }
   L.DomUtil.addClass(tip, 'search-tip')
   tip._text = text // value replaced in this._input and used by _autoType
+  tip.setAttribute('title', text)
 
   if (this.options. tipAutoSubmit) {
     L.DomEvent
