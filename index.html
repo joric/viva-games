@@ -237,15 +237,19 @@ searchControl._createTip = function(text, val) {
       .disableClickPropagation(tip)
       .on(tip, 'click', L.DomEvent.stop, this)
       .on(tip, 'click', function (e) {
-        //this._input.value = text
+        this._input.value = text
+
         this._handleAutoresize()
         this._input.focus()
-        //this._hideTooltip()
-        //this._handleSubmit()
+
         const latlng = this._getLocation(text);
         if ((i = getTileNumber(latlng))>=0) {
           zoomToTile(i, map.getZoom());
         }
+
+        this._hideTooltip()
+        this._handleSubmit()
+
       }, this)
   }
   return tip
