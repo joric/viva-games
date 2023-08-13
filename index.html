@@ -263,15 +263,14 @@ let currentTile = null;
 function zoomToTile(i, zoomLevel, zoomPanOptions) {
   let [[top,left],[bottom,right]] = getTileBounds(i);
 
-  if (!zoomPanOptions) {
+  if (zoomPanOptions === undefined) {
     zoomPanOptions = {animate: true, duration: 0.25};
   }
 
-  if (zoomLevel!=undefined) {
-    //map.setZoom(zoomLevel);
-    map.flyTo([top+(bottom-top)/2,left+(right-left)/2], zoomLevel, zoomPanOptions);
-  } else {
+  if (zoomLevel === undefined) {
     map.flyToBounds([[top-12,left],[bottom+12,right]], {duration: 0.3});
+  } else {
+    map.flyTo([top+(bottom-top)/2,left+(right-left)/2], zoomLevel, zoomPanOptions);
   }
 
   let [id,title,pub] = names[i];
@@ -300,7 +299,7 @@ map.on('click', function(e) {
 
 window.onload = function(e) {
   if (location.hash.length>1) {
-    zoomToTile(lookup[location.hash.slice(1)], conf.maxNativeZoom);
+    zoomToTile(lookup[location.hash.slice(1)]);
   }
 };
 
