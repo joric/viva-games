@@ -230,7 +230,7 @@ searchControl._createTip = function(text, val) {
   }
   L.DomUtil.addClass(tip, 'search-tip')
   tip._text = text // value replaced in this._input and used by _autoType
-  tip.setAttribute('title', text)
+  tip.setAttribute('title', text) // NEW! set title
 
   if (this.options. tipAutoSubmit) {
     L.DomEvent
@@ -242,14 +242,14 @@ searchControl._createTip = function(text, val) {
         this._handleAutoresize()
         this._input.focus()
 
-        const latlng = this._getLocation(text);
-        if ((i = getTileNumber(latlng))>=0) {
-          zoomToTile(i, map.getZoom());
-        }
+        // handle this in submit
+        //const latlng = this._getLocation(text);
+        //if ((i = getTileNumber(latlng))>=0) {
+        //  zoomToTile(i, map.getZoom());
+        //}
 
         this._hideTooltip()
         this._handleSubmit()
-
       }, this)
   }
   return tip
