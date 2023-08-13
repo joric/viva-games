@@ -187,7 +187,7 @@ searchControl = L.control.search({
   tipAutoSubmit: true,
   moveToLocation: function(latlng, title, map) {
     if ((i = getTileNumber(latlng))>=0) {
-      zoomToTile(i, map.getZoom());
+      zoomToTile(i);
     }
   },
   sourceData: function(text, callResponse) {
