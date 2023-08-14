@@ -1,7 +1,7 @@
 var conf=
 {
   "title": "Joric's Viva Games",
-  "attribution": "https://github.com/joric/viva-games",
+  "attribution": "<a href=\"https://github.com/joric/viva-games\">Joric's Viva Games - GitHub</a>",
   "urlPrefix": "https://viva-games.ru/game/",
   "tileWidth": 256,
   "tileHeight": 192,
