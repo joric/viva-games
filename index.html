@@ -217,6 +217,10 @@ window.addEventListener("keydown",function (e) {
   if (e.keyCode === 70 && e.ctrlKey) { // Ctrl + F
     searchControl.expand(true);
     e.preventDefault();
+  } else if (e.keyCode === 13) {
+    if (currentTile != null) {
+      zoomToTile(currentTile, map.getZoom()>conf.maxNativeZoom ? conf.maxNativeZoom : undefined);
+    }
   }
 });
 
