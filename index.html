@@ -27,6 +27,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@2.4.0/Control.FullScreen.min.css">
 <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@2.4.0/Control.FullScreen.min.js"></script>
 
+<!-- leaflet-mouseposition -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-mouse-position@1.2.0/src/L.Control.MousePosition.min.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet-mouse-position@1.2.0/src/L.Control.MousePosition.min.js"></script>
+
 <!-- leaflet-edgebuffer -->
 <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer@1.0.6/src/leaflet.edgebuffer.min.js"></script>
 
@@ -82,11 +86,12 @@ L.CRS.myCRS = L.extend({}, L.CRS.Simple, {
 let map = L.map('map', {
   crs: L.CRS.myCRS,
   doubleClickZoom: false,
-  fullscreenControl: true,
-  fullscreenControlOptions: {
-      position: 'topright'
-  },
+  zoomControl: false,
 }).setView([mapWidth/2,mapHeight/2],0);
+
+L.control.zoom({ position: 'bottomright'}).addTo(map);
+L.control.fullscreen({ position: 'bottomright', forceSeparateButton: true}).addTo(map);
+//L.control.mousePosition().addTo(map);
 
 L.TileLayer.MyCustomLayer = L.TileLayer.extend({
     getTileUrl: function(coords) {
