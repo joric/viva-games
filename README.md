@@ -17,3 +17,7 @@
 * Generated with megaparser2, image_download, image_mosaic (see scripts directory)
 * Image size: 32768x25344 pixels, 128x132 tiles, each tile 256x192 pixels, 16896 tiles total
 * Image was centered on a 32768x32768 canvas, used gentiles.py with levels 1-6 and tile size 512.
+
+## References
+
+* https://svofski.github.io/kartoteka-tiles/ forked version for Vector-06c
