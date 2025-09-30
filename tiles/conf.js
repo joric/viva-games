@@ -1,7 +1,7 @@
 var conf=
 {
   "title": "Joric's Viva Games",
-  "attribution": "<a href=\"https://viva-games.ru\">Viva Games</a>",
+  "attribution": "<a href=\"https://viva-games.ru\" target=_blank>Viva Games</a>",
   "urlPrefix": "https://viva-games.ru/game/",
   "tileWidth": 256,
   "tileHeight": 192,
